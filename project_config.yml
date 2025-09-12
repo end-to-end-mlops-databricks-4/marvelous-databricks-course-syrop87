@@ -1,12 +1,12 @@
 prd:
   catalog_name: mlops_prd
-  schema_name: games_sales
+  schema_name: pborys
 acc:
   catalog_name: mlops_acc
-  schema_name: games_sales
+  schema_name: pborys
 dev:
   catalog_name: mlops_dev
-  schema_name: games_sales
+  schema_name: pborys
   
 data_source:
   online_path: gregorut/videogamesales
