@@ -1,21 +1,27 @@
+import shutil
+from pathlib import Path
+
 import kagglehub
 import pandas as pd
-from games_sales.config import ProjectConfig
-from pathlib import Path
-import shutil
 from loguru import logger
 
+from games_sales.config import ProjectConfig
+
+
 class DataLoader:
-    def __init__(self, config: ProjectConfig):
+    """Class to handle data loading from either online kaggle source or local path."""
+
+    def __init__(self, config: ProjectConfig) -> None:
         self.config = config
 
-    def load_data(self, config:ProjectConfig) -> pd.DataFrame:
+    def load_data(self, config: ProjectConfig) -> pd.DataFrame:
         """Load data into a Pandas DataFrame.
+
         return: DataFrame containing the loaded data
         """
-        local_path = Path(config.data_source['local_path'])
-        if config.data_source['force_download'] or not local_path.exists():
-            download_path = kagglehub.dataset_download(config.data_source['online_path'], force_download=True)
+        local_path = Path(config.data_source["local_path"])
+        if config.data_source["force_download"] or not local_path.exists():
+            download_path = kagglehub.dataset_download(config.data_source["online_path"], force_download=True)
             download_path = Path(download_path)
             logger.info(f"Dataset downloaded to {download_path}")
             files_found = list(download_path.glob(f"*{config.data_source['file_name']}"))

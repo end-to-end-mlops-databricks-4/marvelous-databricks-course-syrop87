@@ -1,7 +1,8 @@
-import yaml
 import os
-from loguru import logger
+
+import yaml
 from databricks.connect import DatabricksSession
+from loguru import logger
 
 from games_sales import PROJECT_DIR
 from games_sales.config import ProjectConfig
@@ -13,7 +14,7 @@ config = ProjectConfig.from_yaml(config_path=(PROJECT_DIR / "project_config.yml"
 logger.info("Configuration loaded:")
 logger.info(yaml.dump(config, default_flow_style=False))
 
-spark = DatabricksSession.builder.profile(os.environ.get('PROFILE_NAME')).getOrCreate()
+spark = DatabricksSession.builder.profile(os.environ.get("PROFILE_NAME")).getOrCreate()
 
 # Load data
 data_loader = DataLoader(config)
@@ -26,11 +27,10 @@ data_processor = DataProcessor(pandas_df=df, config=config, spark=spark)
 data_processor.preprocess_data()
 
 train_df, test_df = data_processor.split_by_time(
-    test_periods=2, 
-    min_train_periods=int(config.preprocessing['min_years']*0.8))
+    test_periods=2, min_train_periods=int(config.preprocessing["min_years"] * 0.8)
+)
 
 
 # Save to catalog
 data_processor.save_to_catalog(train_df, test_df)
 logger.info("Data saved to catalog")
-

@@ -7,7 +7,7 @@ acc:
 dev:
   catalog_name: mlops_dev
   schema_name: pborys
-  
+
 data_source:
   online_path: gregorut/videogamesales
   file_name: vgsales.csv
@@ -21,4 +21,3 @@ preprocessing:
   drop_columns: ['NA_Sales', 'EU_Sales', 'JP_Sales', 'Other_Sales']
   aggregations:
     counts: ['Publisher', 'Name']
-

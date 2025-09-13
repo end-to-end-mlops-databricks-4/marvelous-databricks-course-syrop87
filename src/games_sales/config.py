@@ -4,6 +4,7 @@ from typing import Any
 
 import yaml
 from pydantic import BaseModel
+
 from games_sales import PROJECT_DIR
 
 
@@ -37,7 +38,9 @@ class ProjectConfig(BaseModel):
             config_dict = yaml.safe_load(f)
             config_dict["catalog_name"] = config_dict[env]["catalog_name"]
             config_dict["schema_name"] = config_dict[env]["schema_name"]
-            config_dict["data_source"]['local_path'] = (PROJECT_DIR / 'data' / config_dict["data_source"]['file_name']).resolve() 
+            config_dict["data_source"]["local_path"] = (
+                PROJECT_DIR / "data" / config_dict["data_source"]["file_name"]
+            ).resolve()
 
             return cls(**config_dict)
 
