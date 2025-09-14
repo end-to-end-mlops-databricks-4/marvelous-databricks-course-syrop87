@@ -1,0 +1,477 @@
+Rank,Name,Platform,Year,Genre,Publisher,NA_Sales,EU_Sales,JP_Sales,Other_Sales,Global_Sales
+53,Gran Turismo,PS,1997.0,Racing,Sony Computer Entertainment,4.02,3.87,2.54,0.52,10.95
+70,Gran Turismo 2,PS,1999.0,Racing,Sony Computer Entertainment,3.88,3.42,1.69,0.5,9.49
+203,Tony Hawk's Pro Skater,PS,1999.0,Sports,Activision,3.42,1.38,0.02,0.2,5.02
+221,Crash Team Racing,PS,1999.0,Racing,Sony Computer Entertainment,2.57,1.57,0.44,0.21,4.79
+226,Tony Hawk's Pro Skater 2,PS,2000.0,Sports,Activision,3.05,1.41,0.02,0.2,4.68
+443,Need for Speed III: Hot Pursuit,PS,1998.0,Racing,Electronic Arts,2.14,0.86,0.0,0.13,3.12
+505,Colin McRae Rally,PS,1998.0,Racing,Codemasters,0.09,2.43,0.12,0.22,2.87
+528,Hot Shots Golf,PS,1997.0,Sports,Sony Computer Entertainment,0.29,0.2,2.13,0.18,2.79
+632,Twisted Metal 2,PS,1996.0,Racing,Sony Computer Entertainment,2.12,0.25,0.0,0.07,2.44
+689,Need For Speed: High Stakes,PS,1999.0,Racing,Electronic Arts,1.58,0.64,0.0,0.09,2.31
+691,Cool Boarders 3,PS,1998.0,Sports,989 Studios,1.65,0.46,0.1,0.1,2.31
+706,TOCA Touring Car Championship,PS,1997.0,Racing,Codemasters,0.07,2.0,0.02,0.18,2.28
+717,Cool Boarders 2,PS,1997.0,Sports,UEP Systems,1.52,0.46,0.2,0.08,2.25
+793,Derby Stallion,PS,1997.0,Sports,ASCII Entertainment,0.0,0.0,1.96,0.14,2.09
+820,R4: Ridge Racer Type 4,PS,1998.0,Racing,Namco Bandai Games,0.68,0.46,0.79,0.13,2.06
+884,Jet Moto 2,PS,1997.0,Racing,Sony Computer Entertainment,1.41,0.42,0.03,0.07,1.94
+917,Hot Shots Golf 2,PS,1999.0,Sports,Sony Computer Entertainment,0.25,0.12,1.48,0.03,1.88
+922,FIFA 2000,PS,1998.0,Sports,Electronic Arts,0.22,1.47,0.04,0.14,1.87
+948,Jet Moto,PS,1996.0,Racing,Sony Computer Entertainment,1.33,0.4,0.03,0.07,1.83
+968,NFL GameDay 2000,PS,1999.0,Sports,989 Studios,1.0,0.68,0.0,0.12,1.8
+1005,Madden NFL 2000,PS,1998.0,Sports,Electronic Arts,1.68,0.04,0.0,0.04,1.75
+1023,Madden NFL 99,PS,1998.0,Sports,Electronic Arts,1.66,0.04,0.0,0.04,1.74
+1076,NFL GameDay 98,PS,1997.0,Sports,Sony Computer Entertainment,1.58,0.06,0.0,0.04,1.68
+1087,Madden NFL 2001,PS,2000.0,Sports,Electronic Arts,1.58,0.05,0.0,0.04,1.67
+1092,Tony Hawk's Pro Skater 3,PS,2001.0,Sports,Activision,1.09,0.49,0.02,0.07,1.67
+1140,Sled Storm,PS,1998.0,Racing,Electronic Arts,0.9,0.61,0.0,0.11,1.62
+1169,NASCAR 2000,PS,1999.0,Racing,Electronic Arts,0.88,0.6,0.0,0.1,1.59
+1224,NFL GameDay 99,PS,1998.0,Sports,989 Studios,1.44,0.05,0.0,0.04,1.53
+1228,Tiger Woods 99 PGA Tour Golf,PS,1997.0,Sports,Electronic Arts,0.85,0.58,0.0,0.1,1.53
+1234,NASCAR 98,PS,1996.0,Racing,Electronic Arts,1.43,0.05,0.0,0.04,1.52
+1237,NASCAR 99,PS,1998.0,Racing,Electronic Arts,1.45,0.04,0.0,0.04,1.52
+1238,NBA Live 2000,PS,1998.0,Sports,Electronic Arts,1.43,0.05,0.0,0.03,1.52
+1246,Football Manager 2012,PC,2011.0,Sports,Sega,0.02,1.16,0.0,0.34,1.51
+1250,NBA Live 98,PS,1997.0,Sports,Electronic Arts,1.41,0.06,0.0,0.04,1.51
+1257,NFL Blitz,PS,1998.0,Sports,Midway Games,1.41,0.05,0.0,0.04,1.5
+1305,Triple Play 99,PS,,Sports,,0.81,0.55,0.0,0.1,1.46
+1354,Triple Play 2000,PS,1999.0,Sports,Electronic Arts,0.79,0.54,0.0,0.09,1.43
+1384,2Xtreme,PS,1996.0,Sports,Sony Computer Entertainment,1.15,0.2,0.0,0.05,1.4
+1390,Madden NFL 2002,PS,2001.0,Sports,Electronic Arts,0.78,0.53,0.0,0.09,1.39
+1439,Madden NFL 98,PS,1997.0,Sports,Electronic Arts,1.29,0.03,0.0,0.03,1.35
+1477,Triple Play 2001,PS,2000.0,Sports,Electronic Arts,0.74,0.5,0.0,0.09,1.33
+1491,TOCA 2: Touring Cars,PS,1998.0,Racing,Codemasters,0.03,1.16,0.02,0.11,1.32
+1497,Madden NFL 97,PS,1996.0,Sports,Electronic Arts,0.73,0.5,0.0,0.09,1.32
+1501,TNN Motor Sports Hardcore 4x4,PS,1996.0,Racing,ASC Games,0.73,0.5,0.0,0.09,1.31
+1522,Test Drive 5,PS,1997.0,Racing,Accolade,1.05,0.2,0.0,0.05,1.3
+1548,Twisted Metal 4,PS,1999.0,Racing,989 Studios,1.07,0.16,0.0,0.04,1.28
+1556,Road Rash,PS,1995.0,Racing,Electronic Arts,0.71,0.48,0.0,0.08,1.27
+1573,Football Manager 2011,PC,2010.0,Sports,Sega,0.0,1.01,0.0,0.25,1.26
+1578,Championship Manager 03/04,PC,2003.0,Sports,Eidos Interactive,0.0,1.15,0.0,0.11,1.26
+1579,Brian Lara Cricket,PS,1998.0,Sports,Codemasters,0.02,1.13,0.01,0.1,1.26
+1585,NBA Live 2001,PS,2000.0,Sports,Electronic Arts,0.7,0.47,0.0,0.08,1.25
+1591,Reel Fishing,PS,1996.0,Sports,Natsume,0.99,0.13,0.1,0.04,1.25
+1598,Road Rash 3D,PS,1998.0,Racing,Electronic Arts,1.05,0.16,0.0,0.04,1.25
+1624,Vigilante 8,PS,1998.0,Racing,Activision,0.68,0.47,0.0,0.08,1.23
+1644,NBA Live 99,PS,1997.0,Sports,Electronic Arts,1.13,0.05,0.0,0.03,1.22
+1665,Test Drive 4,PS,1997.0,Racing,Electronic Arts,0.67,0.46,0.0,0.08,1.21
+1698,The Dukes of Hazzard: Racing for Home,PS,1999.0,Racing,Ubisoft,0.99,0.16,0.0,0.04,1.19
+1733,Cool Boarders 4,PS,1998.0,Sports,989 Studios,0.65,0.44,0.0,0.08,1.17
+1734,Rage Racer,PS,1996.0,Racing,Sony Computer Entertainment,0.16,0.11,0.83,0.08,1.17
+1736,Football Manager 2013,PC,2012.0,Sports,Sega,0.0,0.95,0.0,0.22,1.17
+1737,Destruction Derby 2,PS,1996.0,Racing,Psygnosis,0.65,0.44,0.0,0.08,1.17
+1756,Test Drive: Off Road,PS,1997.0,Racing,Eidos Interactive,0.65,0.44,0.0,0.08,1.16
+1806,Derby Stallion 99,PS,1999.0,Sports,ASCII Entertainment,0.0,0.0,1.06,0.07,1.13
+1831,Worldwide Soccer Manager 2008,PC,2007.0,Sports,Russel,0.0,1.12,0.0,0.0,1.12
+1854,Triple Play 98,PS,1997.0,Sports,Electronic Arts,0.61,0.42,0.0,0.07,1.1
+1893,NFL Blitz 2000,PS,1998.0,Sports,Midway Games,0.6,0.41,0.0,0.07,1.09
+1913,Ready 2 Rumble Boxing,PS,1998.0,Sports,Midway Games,0.6,0.41,0.0,0.07,1.08
+1926,Championship Manager 99/00,PC,1999.0,Sports,Eidos Interactive,0.0,0.98,0.0,0.09,1.07
+1930,NHL 99,PS,1997.0,Sports,Electronic Arts,0.59,0.4,0.0,0.07,1.07
+1936,Ridge Racer Revolution,PS,1995.0,Racing,Sony Computer Entertainment,0.17,0.12,0.71,0.07,1.07
+1938,Hot Wheels Turbo Racing,PS,1999.0,Racing,Electronic Arts,0.59,0.4,0.0,0.07,1.07
+1939,NCAA Football 99,PS,1998.0,Sports,Electronic Arts,0.59,0.4,0.0,0.07,1.06
+1981,Dave Mirra Freestyle BMX,PS,2000.0,Sports,Acclaim Entertainment,0.91,0.11,0.0,0.03,1.05
+1996,ATV: Quad Power Racing,PS,2000.0,Racing,Acclaim Entertainment,0.58,0.39,0.0,0.07,1.04
+2004,Jeremy McGrath Supercross 98,PS,1998.0,Racing,Acclaim Entertainment,0.91,0.1,0.0,0.03,1.04
+2049,Championship Manager 3,PC,2003.0,Sports,Eidos Interactive,0.0,0.93,0.0,0.08,1.01
+2070,Road & Track Presents: The Need for Speed,PS,1995.0,Racing,Electronic Arts,0.56,0.38,0.0,0.07,1.0
+2071,NFL GameDay 2001,PS,2000.0,Sports,Sony Computer Entertainment,0.56,0.38,0.0,0.07,1.0
+2073,NBA Live 97,PS,1996.0,Sports,Electronic Arts,0.55,0.38,0.0,0.07,1.0
+2186,NCAA Football 2000,PS,1999.0,Sports,Electronic Arts,0.53,0.36,0.0,0.06,0.95
+2213,MLB 2000,PS,1999.0,Sports,Sony Computer Entertainment,0.52,0.35,0.0,0.06,0.94
+2245,SnoCross Championship Racing,PS,1999.0,Racing,Ubisoft,0.52,0.35,0.0,0.06,0.93
+2251,NHL 98,PS,1997.0,Sports,Electronic Arts,0.51,0.35,0.0,0.06,0.92
+2258,Space Jam,PS,1996.0,Sports,Acclaim Entertainment,0.51,0.35,0.0,0.06,0.92
+2284,Colin McRae Rally 2.0,PS,2000.0,Racing,Codemasters,0.02,0.8,0.02,0.07,0.91
+2304,Destruction Derby,PS,1995.0,Racing,Psygnosis,0.5,0.34,0.0,0.06,0.9
+2353,MLB 2001,PS,2000.0,Sports,Sony Computer Entertainment,0.49,0.34,0.0,0.06,0.89
+2386,Need for Speed: V-Rally,PS,1997.0,Racing,Infogrames,0.43,0.29,0.09,0.06,0.87
+2391,NFL GameDay '97,PS,1996.0,Sports,Sony Computer Entertainment,0.48,0.33,0.0,0.06,0.87
+2396,NHL 2000,PS,1998.0,Sports,Electronic Arts,0.48,0.33,0.0,0.06,0.87
+2420,Ford Racing,PS,2001.0,Racing,Empire Interactive,0.48,0.33,0.0,0.06,0.86
+2422,MLB 99,PS,1998.0,Sports,Sony Computer Entertainment,0.48,0.32,0.0,0.06,0.86
+2448,NFL GameDay,PS,1995.0,Sports,Sony Computer Entertainment,0.47,0.32,0.0,0.06,0.85
+2470,Rocket Power: Team Rocket Rescue,PS,2001.0,Sports,THQ,0.47,0.32,0.0,0.05,0.84
+2540,NASCAR 2001,PS,2000.0,Racing,Electronic Arts,0.45,0.31,0.0,0.05,0.81
+2543,Jikkyou Powerful Pro Yakyuu '99 Kaimakuban,PS,1999.0,Sports,Konami Digital Entertainment,0.0,0.0,0.76,0.05,0.81
+2559,World Soccer Jikkyou Winning Eleven 3: World Cup France '98,PS,1998.0,Sports,Konami Digital Entertainment,0.0,0.0,0.75,0.05,0.81
+2570,Moto Racer,PS,1997.0,Racing,Electronic Arts,0.45,0.3,0.0,0.05,0.8
+2603,Ridge Racer,PS,1994.0,Racing,Sony Computer Entertainment,0.0,0.0,0.74,0.05,0.79
+2608,Motocross Mania,PS,2001.0,Racing,Take-Two Interactive,0.44,0.3,0.0,0.05,0.79
+2657,NBA ShootOut 98,PS,1998.0,Sports,Sony Computer Entertainment,0.43,0.29,0.0,0.05,0.78
+2663,Andretti Racing,PS,1996.0,Racing,Electronic Arts,0.43,0.29,0.0,0.05,0.77
+2672,Need for Speed: Porsche Unleashed,PS,1999.0,Racing,Electronic Arts,0.43,0.29,0.0,0.05,0.77
+2689,Formula 1,PS,1996.0,Racing,Psygnosis,0.18,0.12,0.42,0.05,0.76
+2698,ISS Pro Evolution,PS,1998.0,Sports,Konami Digital Entertainment,0.0,0.0,0.71,0.05,0.76
+2785,Jet Moto 3,PS,1999.0,Racing,Sony Computer Entertainment,0.41,0.28,0.0,0.05,0.74
+2796,FIFA: Road to World Cup 98,PS,1997.0,Sports,Electronic Arts,0.14,0.09,0.46,0.05,0.73
+2838,Test Drive 6,PS,1999.0,Racing,Atari,0.4,0.27,0.0,0.05,0.72
+2873,Jeremy McGrath Supercross 2000,PS,2000.0,Racing,Acclaim Entertainment,0.4,0.27,0.0,0.05,0.71
+2891,Football Manager 2014,PC,2013.0,Sports,Sega,0.0,0.6,0.0,0.1,0.71
+2918,NCAA Football 98,PS,1997.0,Sports,Electronic Arts,0.39,0.27,0.0,0.05,0.7
+2932,NCAA Football 2001,PS,2000.0,Sports,Electronic Arts,0.39,0.26,0.0,0.05,0.7
+2950,Moto Racer 2,PS,1997.0,Racing,Electronic Arts,0.39,0.26,0.0,0.05,0.69
+2960,NFL Xtreme,PS,1998.0,Sports,Sony Computer Entertainment,0.38,0.26,0.0,0.05,0.69
+3015,Street Sk8er,PS,1998.0,Sports,Electronic Arts,0.37,0.25,0.0,0.04,0.67
+3060,Tiger Woods PGA Tour 2000,PS,1998.0,Sports,Electronic Arts,0.37,0.25,0.0,0.04,0.66
+3095,Animaniacs Ten Pin Alley,PS,1998.0,Sports,ASC Games,0.36,0.25,0.0,0.04,0.66
+3231,NHL 2001,PS,2000.0,Sports,Electronic Arts,0.35,0.24,0.0,0.04,0.63
+3246,NBA ShootOut '97,PS,1997.0,Sports,Sony Computer Entertainment,0.35,0.24,0.0,0.04,0.62
+3271,Bass Landing,PS,1999.0,Sports,ASCII Entertainment,0.21,0.14,0.23,0.04,0.62
+3391,Jikkyou Powerful Pro Yakyuu '97 Kaimakuban,PS,1997.0,Sports,Konami Digital Entertainment,0.0,0.0,0.56,0.04,0.59
+3393,CyberTiger,PS,1998.0,Sports,Electronic Arts,0.33,0.22,0.0,0.04,0.59
+3399,NFL Blitz 2001,PS,2000.0,Sports,Midway Games,0.33,0.22,0.0,0.04,0.59
+3401,Jikkyou Powerful Pro Yakyuu '98 Kaimakuban,PS,1998.0,Sports,Konami Digital Entertainment,0.0,0.0,0.55,0.04,0.59
+3462,Sammy Sosa High Heat Baseball 2001,PS,2000.0,Sports,3DO,0.32,0.22,0.0,0.04,0.58
+3482,Championship Motocross featuring Ricky Carmichael,PS,1998.0,Racing,THQ,0.32,0.22,0.0,0.04,0.58
+3588,NASCAR Rumble,PS,2000.0,Racing,Electronic Arts,0.31,0.21,0.0,0.04,0.56
+3631,NBA Showtime: NBA on NBC,PS,1999.0,Sports,Midway Games,0.31,0.21,0.0,0.04,0.55
+3747,Mat Hoffman's Pro BMX,PS,2001.0,Sports,Activision,0.3,0.2,0.0,0.04,0.54
+3770,007 Racing,PS,2000.0,Racing,Electronic Arts,0.3,0.2,0.0,0.03,0.53
+3876,NBA Live 2002,PS,2001.0,Sports,Electronic Arts,0.29,0.19,0.0,0.03,0.52
+3887,International Track & Field,PS,1996.0,Sports,Konami Digital Entertainment,0.08,0.05,0.35,0.03,0.51
+3901,Virtual Pool,PS,1997.0,Sports,Interplay,0.28,0.19,0.0,0.03,0.51
+3948,NHL FaceOff 98,PS,1997.0,Sports,Sony Computer Entertainment,0.28,0.19,0.0,0.03,0.51
+3987,Bases Loaded '96: Double Header,PS,1995.0,Sports,Jaleco,0.28,0.19,0.0,0.03,0.5
+4122,Vigilante 8: 2nd Offense,PS,1999.0,Racing,Activision,0.27,0.18,0.0,0.03,0.48
+4131,NFL Xtreme 2,PS,1999.0,Sports,989 Studios,0.27,0.18,0.0,0.03,0.48
+4203,FIFA 12,PC,2011.0,Sports,Electronic Arts,0.04,0.33,0.0,0.1,0.47
+4216,NHL 97,PS,1996.0,Sports,Electronic Arts,0.26,0.18,0.0,0.03,0.47
+4236,Razor Freestyle Scooter,PS,1999.0,Sports,Ubisoft,0.26,0.17,0.0,0.03,0.46
+4260,Hydro Thunder,PS,1999.0,Racing,Midway Games,0.26,0.17,0.0,0.03,0.46
+4264,NHL FaceOff '97,PS,1996.0,Sports,Sony Computer Entertainment,0.26,0.17,0.0,0.03,0.46
+4287,Star Wars: Demolition,PS,2000.0,Racing,Activision,0.25,0.17,0.0,0.03,0.46
+4340,NCAA Gamebreaker 99,PS,1998.0,Sports,989 Studios,0.25,0.17,0.0,0.03,0.45
+4342,World Stadium 2,PS,1998.0,Sports,Namco Bandai Games,0.0,0.0,0.42,0.03,0.45
+4390,NHL FaceOff,PS,1994.0,Sports,Sony Computer Entertainment,0.25,0.17,0.0,0.03,0.45
+4399,Walt Disney World Quest: Magical Racing Tour,PS,2000.0,Racing,Eidos Interactive,0.25,0.17,0.0,0.03,0.45
+4433,World Stadium EX,PS,1996.0,Sports,Namco Bandai Games,0.0,0.0,0.41,0.03,0.44
+4442,Chocobo Racing,PS,1999.0,Racing,SquareSoft,0.07,0.05,0.3,0.03,0.44
+4466,Grind Session,PS,2000.0,Sports,Sony Computer Entertainment,0.24,0.17,0.0,0.03,0.44
+4505,FIFA 14,PC,2013.0,Sports,Electronic Arts,0.01,0.36,0.0,0.06,0.43
+4516,MLB 2002,PS,2001.0,Sports,Sony Computer Entertainment,0.24,0.16,0.0,0.03,0.43
+4542,Cool Boarders,PS,1996.0,Sports,Sony Computer Entertainment,0.1,0.07,0.24,0.03,0.43
+4563,NHL FaceOff 99,PS,1997.0,Sports,989 Studios,0.24,0.16,0.0,0.03,0.43
+4596,Big Strike Bowling,PS,2003.0,Sports,Gotham Games,0.23,0.16,0.0,0.03,0.42
+4601,NASCAR Thunder 2002,PS,2001.0,Racing,Electronic Arts,0.23,0.16,0.0,0.03,0.42
+4614,JGTC: All-Japan Grand Touring Car Championship,PS,1998.0,Racing,TYO,0.23,0.16,0.0,0.03,0.42
+4652,International Superstar Soccer Pro '98,PS,1998.0,Sports,Konami Digital Entertainment,0.02,0.02,0.35,0.03,0.42
+4697,Cool Boarders 2001,PS,2000.0,Sports,Sony Computer Entertainment,0.23,0.16,0.0,0.03,0.41
+4699,World Soccer Jikkyou Winning Eleven 2000: U-23 Medal heno Chousen,PS,2000.0,Sports,Konami Digital Entertainment,0.0,0.0,0.39,0.03,0.41
+4718,NASCAR Racing,PS,1996.0,Racing,Pioneer LDC,0.23,0.16,0.0,0.03,0.41
+4756,'98 Koshien,PS,1998.0,Sports,Magical Company,0.15,0.1,0.12,0.03,0.41
+4781,NFL GameDay 2002,PS,2001.0,Sports,Sony Computer Entertainment,0.23,0.15,0.0,0.03,0.4
+4814,NBA ShootOut 2000,PS,1999.0,Sports,989 Studios,0.22,0.15,0.0,0.03,0.4
+4824,NCAA GameBreaker 2000,PS,1999.0,Sports,989 Studios,0.22,0.15,0.0,0.03,0.4
+4848,Road Rash: Jailbreak,PS,1999.0,Racing,Electronic Arts,0.22,0.15,0.0,0.03,0.4
+4894,NASCAR Heat,PS,2000.0,Racing,Hasbro Interactive,0.22,0.15,0.0,0.03,0.39
+4913,Thrasher Presents: Skate and Destroy,PS,1998.0,Sports,Take-Two Interactive,0.22,0.15,0.0,0.03,0.39
+4981,Triple Play 97,PS,1996.0,Sports,Electronic Arts Victor,0.21,0.15,0.0,0.03,0.38
+4986,San Francisco Rush: Extreme Racing,PS,1997.0,Racing,GT Interactive,0.21,0.15,0.0,0.03,0.38
+4988,Bakusou Dekotora Densetsu: Otoko Ippiki Yume Kaidoi,PS,1998.0,Racing,Human Entertainment,0.0,0.0,0.36,0.03,0.38
+5016,ESPN Extreme Games,PS,1994.0,Sports,Sony Computer Entertainment,0.11,0.08,0.17,0.03,0.38
+5049,Rogue Trip: Vacation 2012,PS,1998.0,Racing,GT Interactive,0.21,0.14,0.0,0.02,0.38
+5055,Moto Racer World Tour,PS,2000.0,Racing,Sony Computer Entertainment,0.21,0.14,0.0,0.02,0.38
+5056,NCAA Final Four 2000,PS,1999.0,Sports,989 Sports,0.21,0.14,0.0,0.02,0.38
+5073,Need for Speed: Hot Pursuit,PC,2010.0,Racing,Electronic Arts,0.12,0.2,0.0,0.06,0.38
+5203,Big Bass World Championship,PS,1997.0,Sports,Starfish,0.2,0.14,0.0,0.02,0.36
+5212,World's Scariest Police Chases,PS,2001.0,Racing,Activision,0.2,0.14,0.0,0.02,0.36
+5221,LEGO Racers,PS,1999.0,Racing,LEGO Media,0.2,0.14,0.0,0.02,0.36
+5253,South Park Rally,PS,1998.0,Racing,Acclaim Entertainment,0.2,0.13,0.0,0.02,0.36
+5263,Formula 1 Championship Edition,PS,1997.0,Racing,Psygnosis,0.06,0.04,0.23,0.02,0.36
+5336,Rally Cross 2,PS,1998.0,Racing,989 Studios,0.19,0.13,0.0,0.02,0.35
+5360,WipEout 3,PS,1999.0,Racing,Psygnosis,0.19,0.13,0.0,0.02,0.34
+5447,Tokyo Highway Battle,PS,1996.0,Racing,Jaleco,0.06,0.04,0.21,0.02,0.33
+5492,World Stadium 3,PS,1999.0,Sports,Namco Bandai Games,0.0,0.0,0.31,0.02,0.33
+5539,NCAA GameBreaker 2001,PS,2000.0,Sports,Sony Computer Entertainment,0.18,0.12,0.0,0.02,0.33
+5553,NBA Live 96,PS,1996.0,Sports,Electronic Arts,0.16,0.11,0.04,0.02,0.33
+5586,Championship Bass,PS,1999.0,Sports,Electronic Arts,0.18,0.12,0.0,0.02,0.32
+5614,ESPN X-Games Pro Boarder,PS,1997.0,Sports,Sony Computer Entertainment,0.18,0.12,0.0,0.02,0.32
+5637,FIFA 2001 Major League Soccer,PS,2000.0,Sports,Electronic Arts,0.18,0.12,0.0,0.02,0.32
+5639,Rally Cross,PS,1997.0,Racing,Sony Computer Entertainment,0.18,0.12,0.0,0.02,0.32
+5648,No.1 Muscle Ranking - Kinniku Banzuke Vol. 1: Oregasaikyouno Otokoda!,PS,1999.0,Sports,Konami Digital Entertainment,0.0,0.0,0.3,0.02,0.32
+5709,NBA ShootOut,PS,1995.0,Sports,Sony Computer Entertainment,0.17,0.12,0.0,0.02,0.31
+5784,Demolition Racer,PS,1998.0,Racing,Infogrames,0.17,0.12,0.0,0.02,0.31
+5793,NHL FaceOff 2000,PS,1998.0,Sports,Sony Computer Entertainment,0.17,0.12,0.0,0.02,0.31
+5859,Cart World Series,PS,1997.0,Racing,Sony Computer Entertainment,0.17,0.11,0.0,0.02,0.3
+5863,The Dukes of Hazzard II: Daisy Dukes It Out,PS,,Racing,Unknown,0.17,0.11,0.0,0.02,0.3
+5902,Need for Speed: Most Wanted,PC,2005.0,Racing,Electronic Arts,0.02,0.23,0.0,0.05,0.3
+5913,FIFA 15,PC,2014.0,Sports,Electronic Arts,0.0,0.27,0.0,0.03,0.3
+5980,Fisherman's Bait 2: Big Ol' Bass,PS,1999.0,Sports,Konami Digital Entertainment,0.16,0.11,0.0,0.02,0.29
+5993,Jikkyou Powerful Pro Yakyuu 2000 Kaimakuban,PS,2000.0,Sports,Konami Digital Entertainment,0.0,0.0,0.27,0.02,0.29
+6053,MLB Pennant Race,PS,1996.0,Sports,Sony Computer Entertainment,0.16,0.11,0.0,0.02,0.29
+6070,Snowboarding,PS,2000.0,Sports,Midas Interactive Entertainment,0.16,0.11,0.0,0.02,0.29
+6076,Looney Tunes Racing,PS,2000.0,Racing,Infogrames,0.16,0.11,0.0,0.02,0.29
+6098,PGA Tour 97,PS,1996.0,Sports,Electronic Arts,0.16,0.11,0.0,0.02,0.29
+6112,VMX Racing,PS,1997.0,Racing,Playmates,0.16,0.11,0.0,0.02,0.28
+6198,NBA In The Zone,PS,1995.0,Sports,Konami Digital Entertainment,0.16,0.11,0.0,0.02,0.28
+6291,Burstrick: Wake Boarding!!,PS,2000.0,Sports,Natsume,0.15,0.1,0.0,0.02,0.27
+6292,Dave Mirra Freestyle BMX: Maximum Remix,PS,2001.0,Sports,Acclaim Entertainment,0.15,0.1,0.0,0.02,0.27
+6305,Sydney 2000,PS,2000.0,Sports,Eidos Interactive,0.15,0.1,0.0,0.02,0.27
+6355,Need for Speed Rivals,PC,2013.0,Racing,Electronic Arts,0.04,0.19,0.0,0.04,0.27
+6378,Superbike 2000,PS,1999.0,Racing,Electronic Arts,0.15,0.1,0.0,0.02,0.27
+6391,Jikkyou Powerful Pro Yakyuu '98 Ketteiban,PS,1998.0,Sports,Konami Digital Entertainment,0.0,0.0,0.25,0.02,0.27
+6405,NBA ShootOut 2001,PS,2000.0,Sports,Sony Computer Entertainment,0.15,0.1,0.0,0.02,0.27
+6441,Gallop Racer 2: One and Only Road to Victory,PS,1997.0,Sports,Tecmo Koei,0.0,0.0,0.25,0.02,0.27
+6458,Jikkyou Powerful Pro Yakyuu '99 Ketteiban,PS,1999.0,Sports,Konami Digital Entertainment,0.0,0.0,0.25,0.02,0.26
+6464,NCAA Gamebreaker,PS,1996.0,Sports,Sony Computer Entertainment,0.15,0.1,0.0,0.02,0.26
+6548,McGrath Vs. Pastrana Freestyle Motocross,PS,2000.0,Racing,Acclaim Entertainment,0.14,0.1,0.0,0.02,0.26
+6577,Choro Q3,PS,1998.0,Racing,Takara,0.0,0.0,0.24,0.02,0.26
+6597,NHL Rock the Rink,PS,1999.0,Sports,Electronic Arts,0.14,0.1,0.0,0.02,0.26
+6611,Combination Pro Soccer: J-League no Kantoku ni Natte Sekai wo Mezase!!,PS,1998.0,Sports,Axela,0.0,0.0,0.24,0.02,0.25
+6657,WipEout XL,PS,1996.0,Racing,Psygnosis,0.14,0.1,0.0,0.02,0.25
+6700,Penny Racers,PS,1996.0,Racing,Sony Computer Entertainment,0.0,0.0,0.23,0.02,0.25
+6716,NBA Jam Tournament Edition,PS,1995.0,Sports,Acclaim Entertainment,0.14,0.09,0.0,0.02,0.25
+6735,F1 2000,PS,2000.0,Racing,Electronic Arts,0.14,0.09,0.0,0.02,0.25
+6757,Choro Q2,PS,1997.0,Racing,Takara,0.0,0.0,0.23,0.02,0.25
+6777,Jikkyou Powerful Pro Yakyuu 2001,PS,2001.0,Sports,Konami Digital Entertainment,0.0,0.0,0.23,0.02,0.24
+6788,Gallop Racer (JP),PS,1996.0,Sports,Tecmo Koei,0.04,0.03,0.16,0.02,0.24
+6805,Namco Tennis Smash Court,PS,1995.0,Sports,Sony Computer Entertainment,0.0,0.0,0.23,0.02,0.24
+6904,XS Airboat Racing,PS,2002.0,Racing,XS Games,0.13,0.09,0.0,0.02,0.24
+6924,PGA Tour 96,PS,1995.0,Sports,Electronic Arts,0.13,0.09,0.0,0.02,0.24
+7033,NHL FaceOff 2001,PS,2000.0,Sports,Sony Computer Entertainment,0.13,0.09,0.0,0.02,0.23
+7190,NFL Quarterback Club 97,PS,1996.0,Sports,Acclaim Entertainment,0.12,0.08,0.0,0.01,0.22
+7208,Barbie Super Sports,PS,1999.0,Sports,Mattel Interactive,0.12,0.08,0.0,0.01,0.22
+7237,NBA Jam Extreme,PS,1996.0,Sports,Acclaim Entertainment,0.12,0.08,0.0,0.01,0.22
+7243,NHL Championship 2000,PS,1998.0,Sports,Fox Interactive,0.12,0.08,0.0,0.01,0.22
+7283,Saltwater Sportfishing,PS,2001.0,Sports,Take-Two Interactive,0.12,0.08,0.0,0.01,0.22
+7289,Sports Car GT,PS,1999.0,Racing,Electronic Arts,0.12,0.08,0.0,0.01,0.22
+7314,NBA in the Zone 2000,PS,2000.0,Sports,Konami Digital Entertainment,0.12,0.08,0.0,0.01,0.21
+7317,Cabela's Big Game Hunter: Ultimate Challenge,PS,2001.0,Sports,Activision Value,0.12,0.08,0.0,0.01,0.21
+7448,Rollcage,PS,1999.0,Racing,Psygnosis,0.12,0.08,0.0,0.01,0.21
+7605,Speed Punks,PS,1998.0,Racing,Sony Computer Entertainment,0.11,0.08,0.0,0.01,0.2
+7722,Test Drive Unlimited 2,PC,,Racing,Atari,0.05,0.11,0.0,0.03,0.2
+7769,J-League Jikkyou Winning Eleven 3,PS,1997.0,Sports,Konami Digital Entertainment,0.0,0.0,0.18,0.01,0.19
+7797,Re-Volt,PS,1998.0,Racing,Acclaim Entertainment,0.11,0.07,0.0,0.01,0.19
+7853,Need for Speed: Shift 2 Unleashed,PC,2011.0,Racing,Electronic Arts,0.05,0.11,0.0,0.03,0.19
+7911,Big Air,PS,1999.0,Sports,Accolade,0.1,0.07,0.0,0.01,0.19
+7913,Gallop Racer,PS,1999.0,Sports,Tecmo Koei,0.0,0.0,0.18,0.01,0.19
+7922,College Slam,PS,1995.0,Sports,Acclaim Entertainment,0.1,0.07,0.0,0.01,0.19
+7932,F1 2011,PC,2011.0,Racing,Codemasters,0.0,0.15,0.0,0.04,0.19
+8017,Reel Fishing II,PS,2000.0,Sports,Victor Interactive,0.1,0.07,0.0,0.01,0.18
+8058,Driver: San Francisco,PC,2011.0,Racing,Ubisoft,0.05,0.1,0.0,0.03,0.18
+8096,FIFA Soccer 11,PC,2010.0,Sports,Electronic Arts,0.0,0.14,0.0,0.04,0.18
+8136,FIFA 16,PC,2015.0,Sports,Electronic Arts,0.04,0.13,0.0,0.01,0.18
+8153,Brunswick Circuit Pro Bowling,PS,1998.0,Sports,THQ,0.1,0.07,0.0,0.01,0.18
+8189,Speedball 2100,PS,2000.0,Sports,Empire Interactive,0.1,0.07,0.0,0.01,0.18
+8389,NickToons: Racing,PS,2001.0,Racing,Hasbro Interactive,0.09,0.06,0.0,0.01,0.17
+8390,VR Golf '97,PS,1996.0,Sports,Gremlin Interactive Ltd,0.09,0.06,0.0,0.01,0.17
+8394,Off-World Interceptor Extreme,PS,1995.0,Racing,Crystal Dynamics,0.09,0.06,0.0,0.01,0.17
+8519,World Stadium 4,PS,2000.0,Sports,Namco Bandai Games,0.0,0.0,0.15,0.01,0.16
+8523,Kawa no Nushi Tsuri,PS,1998.0,Sports,Victor Interactive,0.0,0.0,0.15,0.01,0.16
+8524,N2O: Nitrous Oxide,PS,1998.0,Racing,Gremlin Interactive Ltd,0.09,0.06,0.0,0.01,0.16
+8580,NBA 2K12,PC,2011.0,Sports,Take-Two Interactive,0.09,0.05,0.0,0.02,0.16
+8582,Power Stakes,PS,1997.0,Sports,Aques,0.0,0.0,0.15,0.01,0.16
+8600,The Crew,PC,2014.0,Racing,Ubisoft,0.0,0.15,0.0,0.01,0.16
+8627,FIFA Soccer 96,PS,1995.0,Sports,Electronic Arts,0.09,0.06,0.0,0.01,0.16
+8630,NCAA Final Four 2001,PS,2000.0,Sports,Sony Computer Entertainment,0.09,0.06,0.0,0.01,0.16
+8635,J-League Jikkyou Winning Eleven 2000,PS,2000.0,Sports,Konami Digital Entertainment,0.0,0.0,0.15,0.01,0.16
+8644,Racing Lagoon,PS,1999.0,Racing,Square,0.0,0.0,0.15,0.01,0.16
+8662,FIFA Soccer 97,PS,1996.0,Sports,Electronic Arts,0.09,0.06,0.0,0.01,0.16
+8679,DiRT 3,PC,2011.0,Racing,Codemasters,0.0,0.13,0.0,0.03,0.16
+8686,Street Racer,PS,1996.0,Racing,Ubisoft,0.09,0.06,0.0,0.01,0.16
+8713,Polaris SnoCross,PS,2000.0,Racing,Vatical Entertainment,0.09,0.06,0.0,0.01,0.16
+8718,Muppet RaceMania,PS,1999.0,Racing,Sony Computer Entertainment,0.09,0.06,0.0,0.01,0.15
+8720,Courier Crisis,PS,1997.0,Racing,BMG Interactive Entertainment,0.09,0.06,0.0,0.01,0.15
+8724,Winning Post 3,PS,1998.0,Racing,Tecmo Koei,0.0,0.0,0.14,0.01,0.15
+8775,Streak: Hoverboard Racing,PS,1998.0,Racing,GT Interactive,0.09,0.06,0.0,0.01,0.15
+8828,FIFA Soccer 2002,PS,2001.0,Sports,Electronic Arts,0.08,0.06,0.0,0.01,0.15
+8892,Winning Post 4,PS,1999.0,Sports,Tecmo Koei,0.0,0.0,0.14,0.01,0.15
+8913,No.1 Muscle Ranking - Kinniku Banzuke Vol. 2: Aratanarugenkai Enochousen!,PS,2000.0,Sports,Konami Digital Entertainment,0.0,0.0,0.14,0.01,0.15
+8930,F1 2012,PC,2012.0,Racing,Codemasters,0.01,0.11,0.0,0.03,0.15
+8938,Toy Story Racer,PS,2001.0,Racing,Activision,0.08,0.06,0.0,0.01,0.15
+8968,Turbo Prop Racing,PS,1997.0,Racing,Sony Computer Entertainment,0.08,0.06,0.0,0.01,0.15
+9012,Fox Sports Golf '99,PS,1997.0,Sports,Gremlin Interactive Ltd,0.08,0.05,0.0,0.01,0.14
+9033,Thunder Truck Rally,PS,1997.0,Racing,Psygnosis,0.08,0.05,0.0,0.01,0.14
+9049,Championship Motocross 2001 featuring Ricky Carmichael,PS,2001.0,Racing,THQ,0.08,0.05,0.0,0.01,0.14
+9126,Destruction Derby Raw,PS,2000.0,Racing,Sony Computer Entertainment,0.08,0.05,0.0,0.01,0.14
+9132,Bravo Air Race,PS,1997.0,Racing,THQ,0.08,0.05,0.0,0.01,0.14
+9148,NBA ShootOut 2002,PS,2001.0,Sports,Sony Computer Entertainment,0.08,0.05,0.0,0.01,0.14
+9168,NCAA Basketball Final Four 97,PS,1997.0,Sports,Mindscape,0.08,0.05,0.0,0.01,0.14
+9187,Frank Thomas Big Hurt Baseball,PS,1996.0,Sports,Acclaim Entertainment,0.08,0.05,0.0,0.01,0.14
+9192,Bottom of the 9th,PS,1996.0,Sports,Konami Digital Entertainment,0.08,0.05,0.0,0.01,0.14
+9311,NHL Breakaway 98,PS,1996.0,Sports,Acclaim Entertainment,0.08,0.05,0.0,0.01,0.14
+9335,Backyard Soccer,PS,2001.0,Sports,Infogrames,0.07,0.05,0.0,0.01,0.13
+9385,Kurt Warner's Arena Football Unleashed,PS,2000.0,Sports,Midway Games,0.07,0.05,0.0,0.01,0.13
+9393,NBA Hoopz,PS,2001.0,Sports,Midway Games,0.07,0.05,0.0,0.01,0.13
+9397,Castrol Honda Superbike Racing,PS,1998.0,Racing,THQ,0.07,0.05,0.0,0.01,0.13
+9407,The Flintstones: Bedrock Bowling,PS,2000.0,Sports,Ubisoft,0.07,0.05,0.0,0.01,0.13
+9422,Nagano Winter Olympics '98,PS,1997.0,Sports,Konami Digital Entertainment,0.07,0.05,0.0,0.01,0.13
+9454,No Fear Downhill Mountain Biking,PS,1998.0,Sports,Codemasters,0.07,0.05,0.0,0.01,0.13
+9538,Namco Soccer Prime Goal,PS,1995.0,Sports,Sony Computer Entertainment,0.0,0.0,0.12,0.01,0.13
+9587,Surf Riders,PS,1999.0,Sports,Ubisoft,0.07,0.05,0.0,0.01,0.13
+9607,World Cup Golf: Professional Edition,PS,1995.0,Sports,U.S. Gold,0.07,0.05,0.0,0.01,0.13
+9656,World Soccer Winning Eleven 2002,PS,2002.0,Sports,Konami Digital Entertainment,0.0,0.0,0.12,0.01,0.13
+9658,Actua Tennis,PS,1997.0,Sports,Gremlin Interactive Ltd,0.07,0.05,0.0,0.01,0.13
+9664,Peter Jacobsen's Golden Tee Golf,PS,2000.0,Sports,Infogrames,0.07,0.05,0.0,0.01,0.12
+9808,Gallop Racer 2000,PS,2000.0,Sports,Tecmo Koei,0.0,0.0,0.11,0.01,0.12
+9843,MTV Sports: Pure Ride,PS,2000.0,Sports,THQ,0.07,0.05,0.0,0.01,0.12
+9845,Burning Road,PS,1996.0,Racing,FunSoft,0.07,0.05,0.0,0.01,0.12
+9888,HardBall 5,PS,1996.0,Sports,SPS,0.07,0.04,0.0,0.01,0.12
+9914,Crime Killer,PS,1998.0,Racing,Interplay,0.07,0.04,0.0,0.01,0.12
+9934,Mobil 1 Rally Championship,PS,2000.0,Racing,Electronic Arts,0.07,0.04,0.0,0.01,0.12
+9961,Tecmo Super Bowl,PS,1996.0,Sports,Tecmo Koei,0.06,0.04,0.0,0.01,0.12
+9965,NHL Powerplay '96,PS,1996.0,Sports,Virgin Interactive,0.06,0.04,0.0,0.01,0.12
+10009,F1 Racing Championship,PS,2000.0,Racing,Video System,0.06,0.04,0.0,0.01,0.11
+10068,International Track & Field 2000,PS,1999.0,Sports,Konami Digital Entertainment,0.06,0.04,0.0,0.01,0.11
+10091,Jikkyou Powerful Pro Yakyuu '95,PS,1994.0,Sports,Konami Digital Entertainment,0.0,0.0,0.11,0.01,0.11
+10160,18 Wheels of Steel: Extreme Trucker 2,PC,2011.0,Racing,Rondomedia,0.08,0.02,0.0,0.01,0.11
+10167,Project CARS,PC,2015.0,Racing,Slightly Mad Studios,0.0,0.1,0.0,0.01,0.11
+10258,Tyco RC: Assault with a Battery,PS,1999.0,Racing,Syscom,0.06,0.04,0.0,0.01,0.11
+10259,Felony 11-79,PS,1997.0,Racing,ASCII Entertainment,0.06,0.04,0.0,0.01,0.11
+10314,FoxKids.com Micro Maniacs Racing,PS,2000.0,Racing,Codemasters,0.06,0.04,0.0,0.01,0.11
+10340,Goal Storm '97,PS,1996.0,Sports,Konami Digital Entertainment,0.01,0.0,0.09,0.01,0.11
+10351,Black Bass with Blue Marlin,PS,1999.0,Sports,Starfish,0.06,0.04,0.0,0.01,0.11
+10354,Hyper Formation Soccer,PS,1995.0,Sports,Human Entertainment,0.0,0.0,0.1,0.01,0.11
+10376,Woody Woodpecker Racing,PS,1999.0,Racing,Konami Digital Entertainment,0.06,0.04,0.0,0.01,0.11
+10417,Brunswick Circuit Pro Bowling 2,PS,2000.0,Sports,THQ,0.06,0.04,0.0,0.01,0.11
+10585,Olympic Summer Games: Atlanta 1996,PS,1996.0,Sports,U.S. Gold,0.06,0.04,0.0,0.01,0.1
+10621,Vanishing Point,PS,2001.0,Racing,Acclaim Entertainment,0.06,0.04,0.0,0.01,0.1
+10677,Micro Machines V3,PS,1997.0,Racing,Codemasters,0.06,0.04,0.0,0.01,0.1
+10697,F1 2014,PC,2014.0,Racing,Codemasters,0.0,0.09,0.0,0.01,0.1
+10721,Burnout Paradise: The Ultimate Box,PC,2009.0,Racing,Electronic Arts,0.0,0.08,0.0,0.01,0.1
+10727,The Land Before Time: Great Valley Racing Adventure,PS,2001.0,Racing,TDK Mediactive,0.05,0.04,0.0,0.01,0.1
+10746,Option Tuning Car Battle,PS,1998.0,Racing,MTO,0.0,0.0,0.09,0.01,0.1
+10889,World Stadium 5,PS,2001.0,Sports,Namco Bandai Games,0.0,0.0,0.09,0.01,0.09
+10949,NBA 2K16,PC,2015.0,Sports,Take-Two Interactive,0.02,0.06,0.0,0.01,0.09
+10984,Running Wild,PS,1997.0,Racing,989 Studios,0.05,0.03,0.0,0.01,0.09
+11060,Porsche Challenge,PS,1997.0,Racing,Sony Computer Entertainment,0.05,0.03,0.0,0.01,0.09
+11086,Captain Tsubasa: Aratanaru Densetsu Joshou,PS,2002.0,Sports,Konami Digital Entertainment,0.0,0.0,0.08,0.01,0.09
+11178,Jikkyou Powerful Pro Yakyuu 2000 Ketteiban,PS,2000.0,Sports,Konami Digital Entertainment,0.0,0.0,0.08,0.01,0.09
+11189,Rollcage Stage II,PS,2000.0,Racing,Sony Computer Entertainment,0.05,0.03,0.0,0.01,0.09
+11216,Pro Evolution Soccer 2013,PC,2012.0,Sports,Konami Digital Entertainment,0.0,0.07,0.0,0.01,0.09
+11282,Wreckin Crew,PS,1998.0,Racing,Telstar,0.05,0.03,0.0,0.01,0.08
+11300,S.C.A.R.S,PS,1998.0,Racing,Ubisoft,0.05,0.03,0.0,0.01,0.08
+11400,Major League Baseball 2K11,PC,2011.0,Sports,Take-Two Interactive,0.06,0.01,0.0,0.01,0.08
+11442,Slam 'n Jam '96 featuring Magic & Kareem,PS,1995.0,Sports,Crystal Dynamics,0.04,0.03,0.0,0.01,0.08
+11570,Skydiving Extreme,PS,2001.0,Sports,Banpresto,0.04,0.03,0.0,0.01,0.08
+11572,Need For Speed: Undercover,PC,2008.0,Racing,Electronic Arts,0.0,0.07,0.0,0.01,0.08
+11587,Striker 96,PS,1995.0,Sports,Time Warner Interactive,0.04,0.03,0.0,0.01,0.08
+11666,Need for Speed Underground 2,PC,2004.0,Racing,Electronic Arts,0.0,0.06,0.0,0.01,0.08
+11678,Need for Speed: Most Wanted,PC,2012.0,Racing,Electronic Arts,0.0,0.06,0.0,0.02,0.08
+11771,NHL Open Ice,PS,1996.0,Sports,Midway Games,0.04,0.03,0.0,0.0,0.07
+11796,Classic Road,PS,1995.0,Sports,Victor Interactive,0.0,0.0,0.07,0.0,0.07
+11917,Alexi Lalas International Soccer,PS,1998.0,Sports,Take-Two Interactive,0.04,0.03,0.0,0.0,0.07
+11957,Football Manager 2010,PC,2009.0,Sports,Sega,0.0,0.06,0.0,0.01,0.07
+12035,Circuit Breakers,PS,1998.0,Racing,Mindscape,0.04,0.03,0.0,0.0,0.07
+12080,Motor Toon Grand Prix (Japan),PS,1994.0,Racing,Sony Computer Entertainment,0.0,0.0,0.06,0.0,0.07
+12102,GRID 2,PC,2013.0,Racing,Codemasters,0.0,0.06,0.0,0.01,0.07
+12106,The Putter Golf,PS,2001.0,Sports,D3Publisher,0.04,0.03,0.0,0.0,0.07
+12176,Mega Man: Battle & Chase,PS,1997.0,Racing,Capcom,0.0,0.0,0.06,0.0,0.07
+12182,The Final Round,PS,1996.0,Sports,Konami Digital Entertainment,0.04,0.03,0.0,0.0,0.07
+12229,Pro Evolution Soccer 2015,PC,2014.0,Sports,Konami Digital Entertainment,0.0,0.06,0.0,0.01,0.07
+12242,Speed Racer,PS,1996.0,Racing,Tomy Corporation,0.04,0.02,0.0,0.0,0.07
+12303,Ray Tracers,PS,1997.0,Racing,Sony Computer Entertainment,0.04,0.02,0.0,0.0,0.06
+12385,Blur,PC,2010.0,Racing,Activision,0.01,0.04,0.0,0.01,0.06
+12397,Championship Surfer,PS,2000.0,Sports,Mattel Interactive,0.03,0.02,0.0,0.0,0.06
+12427,Blast Lacrosse,PS,2001.0,Sports,Acclaim Entertainment,0.03,0.02,0.0,0.0,0.06
+12502,NBA Hangtime,PS,1996.0,Sports,Midway Games,0.03,0.02,0.0,0.0,0.06
+12537,Killer Loop,PS,1999.0,Racing,Crave Entertainment,0.03,0.02,0.0,0.0,0.06
+12542,Need for Speed: Shift,PC,2009.0,Racing,Electronic Arts,0.0,0.05,0.0,0.01,0.06
+12579,Klonoa Beach Volleyball,PS,2002.0,Sports,Namco Bandai Games,0.03,0.02,0.0,0.0,0.06
+12607,pro evolution soccer 2011,PC,2010.0,Sports,Konami Digital Entertainment,0.0,0.05,0.0,0.01,0.06
+12699,Interplay Sports Baseball 2000,PS,1999.0,Sports,Interplay,0.03,0.02,0.0,0.0,0.06
+12764,F1 2010,PC,2010.0,Racing,Codemasters,0.0,0.05,0.0,0.01,0.06
+12766,Starwinder: The Ultimate Space Race,PS,1996.0,Racing,Mindscape,0.03,0.02,0.0,0.0,0.06
+12781,Choro Q Marine: Q Boat,PS,1998.0,Racing,Takara,0.0,0.0,0.05,0.0,0.06
+12811,Impact Racing,PS,1996.0,Racing,JVC,0.03,0.02,0.0,0.0,0.06
+12845,NHL Powerplay 98,PS,1997.0,Sports,Virgin Interactive,0.03,0.02,0.0,0.0,0.05
+12846,Olympic Soccer: Atlanta 1996,PS,1996.0,Sports,U.S. Gold,0.03,0.02,0.0,0.0,0.05
+12879,Bottom of the 9th '99,PS,1998.0,Sports,Konami Digital Entertainment,0.03,0.02,0.0,0.0,0.05
+12921,Hi-Octane: The Track Fights Back!,PS,1995.0,Racing,Electronic Arts,0.03,0.02,0.0,0.0,0.05
+12940,FIFA 17,PC,2016.0,Sports,Electronic Arts,0.0,0.05,0.0,0.0,0.05
+12945,Bass Rise,PS,1999.0,Sports,Namco Bandai Games,0.03,0.02,0.0,0.0,0.05
+13032,Batman: Gotham City Racer,PS,2001.0,Racing,Ubisoft,0.03,0.02,0.0,0.0,0.05
+13067,Arthur! Ready to Race,PS,2000.0,Racing,The Learning Company,0.03,0.02,0.0,0.0,0.05
+13081,Bakusou Kyoudai Let's & Go!! Eternal Wings,PS,1998.0,Racing,Jaleco,0.0,0.0,0.05,0.0,0.05
+13129,DiRT 2,PC,2009.0,Racing,Codemasters,0.0,0.04,0.0,0.01,0.05
+13153,Need for Speed Carbon,PC,2006.0,Racing,Electronic Arts,0.0,0.04,0.0,0.01,0.05
+13203,Power Spike Pro Beach Volleyball,PS,2000.0,Sports,Infogrames,0.03,0.02,0.0,0.0,0.05
+13227,Need for Speed Underground,PC,2003.0,Racing,Electronic Arts,0.0,0.04,0.0,0.01,0.05
+13276,FIFA Soccer 10,PC,2009.0,Sports,Electronic Arts,0.0,0.04,0.0,0.01,0.05
+13282,VR Soccer '96,PS,1996.0,Sports,Gremlin Interactive Ltd,0.03,0.02,0.0,0.0,0.05
+13323,Jonah Lomu Rugby Challenge,PC,2011.0,Sports,Home Entertainment Suppliers,0.0,0.04,0.0,0.01,0.05
+13342,F1 2015,PC,2015.0,Racing,Codemasters,0.0,0.04,0.0,0.0,0.05
+13360,FIFA Manager 12,PC,2011.0,Sports,Electronic Arts,0.0,0.03,0.0,0.01,0.05
+13384,Test Drive Le Mans,PS,1999.0,Racing,Infogrames,0.03,0.02,0.0,0.0,0.05
+13445,Wayne Gretzky's 3D Hockey '98,PS,1997.0,Sports,GT Interactive,0.03,0.02,0.0,0.0,0.05
+13539,Split/Second,PC,2010.0,Racing,Disney Interactive Studios,0.0,0.04,0.0,0.01,0.04
+13565,Need for Speed: ProStreet,PC,2007.0,Racing,Electronic Arts,0.0,0.04,0.0,0.01,0.04
+13568,Pro Evolution Soccer 2016,PC,2015.0,Sports,Konami Digital Entertainment,0.0,0.04,0.0,0.0,0.04
+13615,High Heat Baseball 2002,PS,2001.0,Sports,3DO,0.02,0.02,0.0,0.0,0.04
+13664,Virtua Tennis 4,PC,2011.0,Sports,Sega,0.0,0.03,0.0,0.01,0.04
+13667,GRID,PC,,Racing,Codemasters,0.0,0.03,0.0,0.01,0.04
+13673,Major League Baseball 2K12,PC,2012.0,Sports,Take-Two Interactive,0.04,0.0,0.0,0.0,0.04
+13697,Breeding Stud 2,PS,1998.0,Sports,Konami Digital Entertainment,0.0,0.0,0.04,0.0,0.04
+13709,Dead Ball Zone,PS,1998.0,Sports,GT Interactive,0.02,0.02,0.0,0.0,0.04
+13726,Off-Road Drive,PC,2011.0,Racing,1C Company,0.0,0.03,0.0,0.01,0.04
+13848,NHL Blades of Steel 2000,PS,1999.0,Sports,Konami Digital Entertainment,0.02,0.01,0.0,0.0,0.04
+13852,Blood Bowl,PC,2009.0,Sports,Focus Home Interactive,0.01,0.02,0.0,0.01,0.04
+13894,Richard Burns Rally,PC,2004.0,Racing,SCi,0.0,0.03,0.0,0.01,0.04
+13911,Adidas Power Soccer,PS,1996.0,Sports,Psygnosis,0.02,0.01,0.0,0.0,0.04
+14127,Championship Manager Season 01/02,PC,2001.0,Sports,Eidos Interactive,0.0,0.03,0.0,0.01,0.03
+14214,RACE On,PC,2009.0,Racing,bitComposer Games,0.0,0.03,0.0,0.01,0.03
+14219,3D Baseball,PS,1996.0,Sports,BMG Interactive Entertainment,0.02,0.01,0.0,0.0,0.03
+14246,Trials Fusion,PC,2014.0,Racing,Ubisoft,0.0,0.03,0.0,0.0,0.03
+14264,SBK 2011: FIM Superbike World Championship,PC,2011.0,Racing,Black Bean Games,0.0,0.03,0.0,0.01,0.03
+14410,Shaun White Skateboarding,PC,2010.0,Sports,Ubisoft,0.0,0.03,0.0,0.01,0.03
+14414,NBA 2K13,PC,2012.0,Sports,Take-Two Interactive,0.0,0.02,0.0,0.0,0.03
+14434,MotorHead,PS,1998.0,Racing,Gremlin Interactive Ltd,0.02,0.01,0.0,0.0,0.03
+14455,Peak Performance,PS,1997.0,Racing,JVC,0.02,0.01,0.0,0.0,0.03
+14488,Ducati World Racing Challenge,PS,2001.0,Racing,Acclaim Entertainment,0.02,0.01,0.0,0.0,0.03
+14503,GTR Evolution,PC,2008.0,Racing,Atari,0.0,0.02,0.0,0.01,0.03
+14533,Need for Speed (2015),PC,2016.0,Racing,Electronic Arts,0.0,0.03,0.0,0.0,0.03
+14558,Pro Cycling Manager 2016,PC,2016.0,Sports,Focus Home Interactive,0.0,0.03,0.0,0.0,0.03
+14624,Roadsters,PS,2000.0,Racing,Titus,0.02,0.01,0.0,0.0,0.03
+14669,Ride,PC,2015.0,Racing,Milestone S.r.l.,0.0,0.03,0.0,0.0,0.03
+14758,DiRT Rally,PC,2016.0,Racing,Codemasters,0.0,0.03,0.0,0.0,0.03
+14759,The Perfect Golf,PS,1995.0,Sports,Seta Corporation,0.0,0.0,0.03,0.0,0.03
+14781,GRID Autosport,PC,2014.0,Racing,Codemasters,0.0,0.02,0.0,0.0,0.03
+14818,Renegade Racers,PS,1999.0,Racing,Interplay,0.01,0.01,0.0,0.0,0.03
+14877,Pitball,PS,1996.0,Sports,Time Warner Interactive,0.01,0.01,0.0,0.0,0.03
+14993,Bomberman Fantasy Race,PS,1998.0,Racing,Virgin Interactive,0.01,0.01,0.0,0.0,0.02
+14998,Bugriders: The Race of Kings,PS,1997.0,Racing,GT Interactive,0.01,0.01,0.0,0.0,0.02
+15065,GT Legends,PC,2005.0,Racing,Atari,0.0,0.02,0.0,0.0,0.02
+15068,F1 Race Stars,PC,2012.0,Racing,Codemasters,0.0,0.02,0.0,0.0,0.02
+15077,Bottom of the 9th '97,PS,1997.0,Sports,Konami Digital Entertainment,0.01,0.01,0.0,0.0,0.02
+15097,DiRT,PC,2007.0,Racing,Codemasters,0.0,0.02,0.0,0.0,0.02
+15124,Test Drive Unlimited,PC,2007.0,Racing,Atari,0.0,0.02,0.0,0.0,0.02
+15153,Rocket League,PC,2016.0,Sports,505 Games,0.01,0.01,0.0,0.0,0.02
+15155,18 Wheels of Steel: Extreme Trucker,PC,2009.0,Racing,Rondomedia,0.0,0.02,0.0,0.0,0.02
+15193,Fuel,PC,2009.0,Racing,Codemasters,0.0,0.02,0.0,0.0,0.02
+15208,FIFA Soccer 09,PC,2008.0,Sports,Electronic Arts,0.0,0.02,0.0,0.0,0.02
+15210,Ballblazer Champions,PS,1997.0,Sports,CTO SpA,0.01,0.01,0.0,0.0,0.02
+15303,F1 2016 (Codemasters),PC,2016.0,Racing,Codemasters,0.0,0.02,0.0,0.0,0.02
+15346,TOCA Race Driver 3,PC,2006.0,Racing,Codemasters,0.0,0.02,0.0,0.0,0.02
+15392,Ridge Racer Unbounded,PC,2012.0,Racing,Namco Bandai Games,0.0,0.02,0.0,0.0,0.02
+15432,Worldwide Soccer Manager 2007,PC,2006.0,Sports,Sega,0.0,0.02,0.0,0.0,0.02
+15446,NHL 09,PC,2008.0,Sports,Electronic Arts,0.0,0.02,0.0,0.0,0.02
+15476,Adidas Power Soccer 98,PS,1998.0,Sports,Psygnosis,0.01,0.01,0.0,0.0,0.02
+15525,WRC 2: FIA World Rally Championship,PC,2011.0,Racing,Ubisoft,0.0,0.01,0.0,0.0,0.02
+15566,Blood Bowl: Legendary Edition,PC,2010.0,Sports,Focus Home Interactive,0.0,0.01,0.0,0.0,0.02
+15788,Colin McRae Rally 2005,PC,2004.0,Racing,Codemasters,0.0,0.01,0.0,0.0,0.02
+15840,FIFA Soccer 08,PC,2007.0,Sports,Electronic Arts,0.0,0.01,0.0,0.0,0.02
+15891,Worldwide Soccer Manager 2006,PC,2004.0,Sports,Sega,0.0,0.01,0.0,0.0,0.02
+15998,Football Manager Live,PC,2009.0,Sports,Sega,0.0,0.01,0.0,0.0,0.01
+16061,WRC: FIA World Rally Championship,PC,,Racing,Black Bean Games,0.0,0.01,0.0,0.0,0.01
+16083,Virtua Tennis 3,PC,2007.0,Sports,Sega,0.0,0.01,0.0,0.0,0.01
+16121,Football Manager 2005,PC,2004.0,Sports,Sega,0.0,0.01,0.0,0.0,0.01
+16165,Tiger Woods PGA Tour 2005,PC,2004.0,Sports,Electronic Arts,0.0,0.01,0.0,0.0,0.01
+16192,Sonic & All-Stars Racing Transformed,PC,2013.0,Racing,Sega,0.0,0.01,0.0,0.0,0.01
+16229,Victory Spike,PS,1996.0,Sports,Imagineer,0.0,0.0,0.01,0.0,0.01
+16247,Valentino Rossi: The Game,PC,2016.0,Racing,Namco Bandai Games,0.0,0.01,0.0,0.0,0.01
+16248,FlatOut: Ultimate Carnage,PC,2008.0,Racing,Empire Interactive,0.0,0.01,0.0,0.0,0.01
+16261,Championship Manager 2010,PC,2009.0,Sports,Eidos Interactive,0.0,0.01,0.0,0.0,0.01
+16326,MXGP 2,PC,2016.0,Racing,Milestone S.r.l.,0.0,0.01,0.0,0.0,0.01
+16355,Juiced 2: Hot Import Nights,PC,2007.0,Racing,THQ,0.0,0.01,0.0,0.0,0.01
+16357,Monster Jam,PC,2007.0,Racing,Activision,0.01,0.0,0.0,0.0,0.01
+16378,Colin McRae Rally 04,PC,2004.0,Racing,Codemasters,0.0,0.01,0.0,0.0,0.01
+16382,Grand Prix Legends,PC,1997.0,Racing,Vivendi Games,0.0,0.01,0.0,0.0,0.01
+16403,Pro Evolution Soccer 2010,PC,2009.0,Sports,Konami Digital Entertainment,0.0,0.01,0.0,0.0,0.01
+16411,Sega Rally Revo,PC,2007.0,Racing,Sega,0.0,0.01,0.0,0.0,0.01
+16423,Winning Eleven: Pro Evolution Soccer 2007,PC,2006.0,Sports,Konami Digital Entertainment,0.0,0.01,0.0,0.0,0.01
+16462,Rugby World Cup 2015,PC,2015.0,Sports,Ubisoft,0.0,0.01,0.0,0.0,0.01
+16494,Summer Athletics,PC,2008.0,Sports,DTP Entertainment,0.0,0.01,0.0,0.0,0.01
+16546,Driving Simulator 2011,PC,2011.0,Racing,,0.0,0.01,0.0,0.0,0.01
+16561,Pro Evolution Soccer 2008,PC,2007.0,Sports,Konami Digital Entertainment,0.0,0.01,0.0,0.0,0.01

@@ -2,7 +2,7 @@ version: '3'
 dotenv: [.env]
 
 vars:
-  PACKAGE_IMPORT_NAME: mlops_course
+  PACKAGE_IMPORT_NAME: games_sales
   PYTHON_VERSION: 3.12
 
 tasks:
@@ -11,7 +11,7 @@ tasks:
     cmds:
       - uv venv -p {{.PYTHON_VERSION}} .venv
     silent: false
-
+    
   sync-dev:
     desc: Sync project dependencies with optionals
     cmds:
@@ -31,6 +31,11 @@ tasks:
     desc: Run pre-commit hooks
     cmds:
       - uv run pre-commit run --all-files
+
+  test:
+    desc: Run pytest
+    cmds:
+      - cmd /c "pytest -v -s -ra"
 
   help:
     desc: Print all tasks defined in the Taskfile
