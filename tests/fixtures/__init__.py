@@ -1,1 +1,1 @@
-# Makes fixtures a Python package
+"""Makes fixtures a Python package."""

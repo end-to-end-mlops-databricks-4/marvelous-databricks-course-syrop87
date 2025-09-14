@@ -50,14 +50,16 @@ def test_preprocess_data(sample_data: pd.DataFrame, config: ProjectConfig, spark
     :param spark: SparkSession object
     """
     processor = DataProcessor(pandas_df=sample_data, config=config, spark=spark_session)
-    
+
     # Call the preprocess_data method
     processor.preprocess_data()
-    
+
     # Verify that the DataFrame has been processed
     assert isinstance(processor.df, pd.DataFrame)
     assert processor.df.shape[0] <= sample_data.shape[0]  # Preprocessing may reduce rows
-    assert all(col not in processor.df.columns for col in config.preprocessing["drop_columns"])  # Dropped columns are gone  
+    assert all(
+        col not in processor.df.columns for col in config.preprocessing["drop_columns"]
+    )  # Dropped columns are gone
 
 
 def test_aggregate_data(sample_data: pd.DataFrame, config: ProjectConfig, spark_session: SparkSession) -> None:
@@ -71,14 +73,17 @@ def test_aggregate_data(sample_data: pd.DataFrame, config: ProjectConfig, spark_
     :param spark: SparkSession object
     """
     processor = DataProcessor(pandas_df=sample_data, config=config, spark=spark_session)
-    
+
     # Call the private method _aggregate_data
     aggregated_data = processor._aggregate_data(sample_data)
-    
+
     # Verify the aggregation results
     groupby_columns = config.preprocessing["aggregation_level"] + [config.preprocessing["date_column"]]
-    assert set(aggregated_data.columns) == set(groupby_columns + [config.preprocessing["target_column"]] +
-                                               [f"{col}_count" for col in config.preprocessing["aggregations"]["counts"]])
+    assert set(aggregated_data.columns) == set(
+        groupby_columns
+        + [config.preprocessing["target_column"]]
+        + [f"{col}_count" for col in config.preprocessing["aggregations"]["counts"]]
+    )
     assert aggregated_data.shape[0] <= sample_data.shape[0]  # Aggregation reduces rows
 
     # Check if counts are calculated correctly
@@ -97,7 +102,7 @@ def test_drop_short_series(sample_data: pd.DataFrame, config: ProjectConfig, spa
     :param spark: SparkSession object
     """
     processor = DataProcessor(pandas_df=sample_data, config=config, spark=spark_session)
-    
+
     # Call the private method _drop_short_series
     filtered_data = processor._drop_short_series(sample_data)
 
@@ -130,7 +135,6 @@ def test_split_by_time_default_params(
     # # Just one time execution in order for all other tests to work
     train.to_csv((CATALOG_DIR / "train_set.csv").as_posix(), index=False)  # noqa
     test.to_csv((CATALOG_DIR / "test_set.csv").as_posix(), index=False)  # noqa
-
 
 
 def test_preprocess_empty_dataframe(config: ProjectConfig, spark_session: SparkSession) -> None:
@@ -170,5 +174,3 @@ def test_save_to_catalog_succesfull(
     # Assert
     assert spark_session.catalog.tableExists(f"{config.catalog_name}.{config.schema_name}.train_set")
     assert spark_session.catalog.tableExists(f"{config.catalog_name}.{config.schema_name}.test_set")
-
-
