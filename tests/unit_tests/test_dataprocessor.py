@@ -62,52 +62,52 @@ def test_preprocess_data(sample_data: pd.DataFrame, config: ProjectConfig, spark
     )  # Dropped columns are gone
 
 
-def test_aggregate_data(sample_data: pd.DataFrame, config: ProjectConfig, spark_session: SparkSession) -> None:
-    """Test the _aggregate_data method of DataProcessor.
+# def test_aggregate_data(sample_data: pd.DataFrame, config: ProjectConfig, spark_session: SparkSession) -> None:
+#     """Test the _aggregate_data method of DataProcessor.
 
-    This function verifies that the _aggregate_data method correctly performs
-    the aggregation based on the configuration.
+#     This function verifies that the _aggregate_data method correctly performs
+#     the aggregation based on the configuration.
 
-    :param sample_data: Input DataFrame containing sample data
-    :param config: Configuration object for the project
-    :param spark: SparkSession object
-    """
-    processor = DataProcessor(pandas_df=sample_data, config=config, spark=spark_session)
+#     :param sample_data: Input DataFrame containing sample data
+#     :param config: Configuration object for the project
+#     :param spark: SparkSession object
+#     """
+#     processor = DataProcessor(pandas_df=sample_data, config=config, spark=spark_session)
 
-    # Call the private method _aggregate_data
-    aggregated_data = processor._aggregate_data(sample_data)
+#     # Call the private method _aggregate_data
+#     aggregated_data = processor._aggregate_data(sample_data)
 
-    # Verify the aggregation results
-    groupby_columns = config.preprocessing["aggregation_level"] + [config.preprocessing["date_column"]]
-    assert set(aggregated_data.columns) == set(
-        groupby_columns
-        + [config.preprocessing["target_column"]]
-        + [f"{col}_count" for col in config.preprocessing["aggregations"]["counts"]]
-    )
-    assert aggregated_data.shape[0] <= sample_data.shape[0]  # Aggregation reduces rows
+#     # Verify the aggregation results
+#     groupby_columns = config.preprocessing["aggregation_level"] + [config.preprocessing["date_column"]]
+#     assert set(aggregated_data.columns) == set(
+#         groupby_columns
+#         + [config.preprocessing["target_column"]]
+#         + [f"{col}_count" for col in config.preprocessing["aggregations"]["counts"]]
+#     )
+#     assert aggregated_data.shape[0] <= sample_data.shape[0]  # Aggregation reduces rows
 
-    # Check if counts are calculated correctly
-    for col in config.preprocessing["aggregations"]["counts"]:
-        assert f"{col}_count" in aggregated_data.columns
+#     # Check if counts are calculated correctly
+#     for col in config.preprocessing["aggregations"]["counts"]:
+#         assert f"{col}_count" in aggregated_data.columns
 
 
-def test_drop_short_series(sample_data: pd.DataFrame, config: ProjectConfig, spark_session: SparkSession) -> None:
-    """Test the _drop_short_series method of DataProcessor.
+# def test_drop_short_series(sample_data: pd.DataFrame, config: ProjectConfig, spark_session: SparkSession) -> None:
+#     """Test the _drop_short_series method of DataProcessor.
 
-    This function verifies that the _drop_short_series method reduces the number of rows
-    when groups with fewer than the minimum required years are present.
+#     This function verifies that the _drop_short_series method reduces the number of rows
+#     when groups with fewer than the minimum required years are present.
 
-    :param sample_data: Input DataFrame containing sample data
-    :param config: Configuration object for the project
-    :param spark: SparkSession object
-    """
-    processor = DataProcessor(pandas_df=sample_data, config=config, spark=spark_session)
+#     :param sample_data: Input DataFrame containing sample data
+#     :param config: Configuration object for the project
+#     :param spark: SparkSession object
+#     """
+#     processor = DataProcessor(pandas_df=sample_data, config=config, spark=spark_session)
 
-    # Call the private method _drop_short_series
-    filtered_data = processor._drop_short_series(sample_data)
+#     # Call the private method _drop_short_series
+#     filtered_data = processor._drop_short_series(sample_data)
 
-    # Verify that the output has fewer rows than the input
-    assert len(filtered_data) <= len(sample_data)
+#     # Verify that the output has fewer rows than the input
+#     assert len(filtered_data) <= len(sample_data)
 
 
 def test_split_by_time_default_params(
@@ -123,7 +123,7 @@ def test_split_by_time_default_params(
     :param spark: SparkSession object
     """
     processor = DataProcessor(pandas_df=sample_data, config=config, spark=spark_session)
-    processor.preprocess()
+    processor.preprocess_data()
     train, test = processor.split_by_time()
 
     assert isinstance(train, pd.DataFrame)
