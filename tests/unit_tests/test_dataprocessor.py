@@ -149,7 +149,7 @@ def test_preprocess_empty_dataframe(config: ProjectConfig, spark_session: SparkS
     """
     processor = DataProcessor(pandas_df=pd.DataFrame([]), config=config, spark=spark_session)
     with pytest.raises(KeyError):
-        processor.preprocess()
+        processor.preprocess_data()
 
 
 @pytest.mark.skip(reason="depends on delta tables on Databricks")
@@ -166,8 +166,8 @@ def test_save_to_catalog_succesfull(
     :param spark: SparkSession object for interacting with Spark
     """
     processor = DataProcessor(pandas_df=sample_data, config=config, spark=spark_session)
-    processor.preprocess()
-    train_set, test_set = processor.split_data()
+    processor.preprocess_data()
+    train_set, test_set = processor.split_by_time()
     processor.save_to_catalog(train_set, test_set)
     processor.enable_change_data_feed()
 
