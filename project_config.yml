@@ -1,0 +1,23 @@
+prd:
+  catalog_name: mlops_prd
+  schema_name: pborys
+acc:
+  catalog_name: mlops_acc
+  schema_name: pborys
+dev:
+  catalog_name: mlops_dev
+  schema_name: pborys
+
+data_source:
+  online_path: gregorut/videogamesales
+  file_name: vgsales.csv
+  force_download: false
+
+preprocessing:
+  aggregation_level: ['Genre', 'Platform']
+  target_column: 'Global_Sales'
+  date_column: 'Year'
+  min_years: 5
+  drop_columns: ['NA_Sales', 'EU_Sales', 'JP_Sales', 'Other_Sales']
+  aggregations:
+    counts: ['Publisher', 'Name']

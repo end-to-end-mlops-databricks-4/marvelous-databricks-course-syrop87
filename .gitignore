@@ -10,7 +10,8 @@ __pycache__/
 *.so
 
 # Folders
-# data/
+data/
+notebooks/
 
 # Distribution / packaging
 .Python
@@ -95,3 +96,5 @@ dmypy.json
 # VS code configuration
 .vscode
 .history
+
+.databricks

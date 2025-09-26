@@ -2,8 +2,8 @@ version: '3'
 dotenv: [.env]
 
 vars:
-  PACKAGE_IMPORT_NAME: mlops_course
-  PYTHON_VERSION: 3.11
+  PACKAGE_IMPORT_NAME: games_sales
+  PYTHON_VERSION: 3.12
 
 tasks:
   create-venv:
@@ -15,22 +15,27 @@ tasks:
   sync-dev:
     desc: Sync project dependencies with optionals
     cmds:
-      - rm -rf .venv
+      - cmd /c rd /s /q .venv
       - task: create-venv
       - uv sync --extra dev
 
   sync-test:
     desc: Sync only test dependencies
     cmds:
-        - rm -rf .venv
-        - task: create-venv
-        - uv sync --extra test
-        # - source .venv/Scripts/activate && uv sync --extra test # Activate and sync
+      - cmd /c rd /s /q .venv
+      - task: create-venv
+      - uv sync --extra test
+      # - call .venv\Scripts\activate && uv sync --extra test # Activate and sync
 
   lint:
     desc: Run pre-commit hooks
     cmds:
       - uv run pre-commit run --all-files
+
+  test:
+    desc: Run pytest
+    cmds:
+      - cmd /c "pytest -v -s -ra"
 
   help:
     desc: Print all tasks defined in the Taskfile
