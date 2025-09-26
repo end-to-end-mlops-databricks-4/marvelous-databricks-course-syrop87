@@ -9,9 +9,12 @@ parameters → Hyperparameters for LightGBM.
 catalog_name, schema_name → Database schema names for Databricks tables.
 """
 
+import os
+
 import mlflow
 import numpy as np
 import pandas as pd
+from dotenv import load_dotenv
 from lightgbm import LGBMRegressor
 from loguru import logger
 from mlflow import MlflowClient
@@ -24,6 +27,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder
 
 from games_sales.config import ProjectConfig, Tags
+from games_sales.utils import is_databricks
 
 
 class BasicModel:
@@ -32,12 +36,13 @@ class BasicModel:
     This class handles data loading, feature preparation, model training, and MLflow logging.
     """
 
-    def __init__(self, config: ProjectConfig, tags: Tags, spark: SparkSession) -> None:
+    def __init__(self, config: ProjectConfig, tags: Tags, spark: SparkSession, log_on_dbx: bool = True) -> None:
         """Initialize the model with project configuration.
 
         :param config: Project configuration object
         :param tags: Tags object
         :param spark: SparkSession object
+        :param log_on_dbx: Whether to log the model on Databricks - relevant for local runs
         """
         self.config = config
         self.spark = spark
@@ -52,6 +57,13 @@ class BasicModel:
         self.experiment_name = self.config.experiment_name_basic
         self.model_name = f"{self.catalog_name}.{self.schema_name}.games_sales_model_basic"
         self.tags = tags.dict()
+
+        if not is_databricks() and log_on_dbx:
+            load_dotenv()
+            profile = os.environ.get("PROFILE_NAME")
+            mlflow.set_tracking_uri(f"databricks://{profile}")
+            mlflow.set_registry_uri(f"databricks-uc://{profile}")
+            logger.info(f"MLflow tracking URI set to Databricks with profile {profile}")
 
     def load_data(self) -> None:
         """Load training and testing data from Delta tables.

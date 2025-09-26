@@ -55,3 +55,22 @@ class Tags(BaseModel):
 
     git_sha: str
     branch: str
+
+    @classmethod
+    def from_git_repo(cls, repo_path: str = PROJECT_DIR) -> "Tags":
+        """Create Tags instance from a Git repository.
+
+        :param repo_path: Path to the Git repository
+        :return: Tags instance with git_sha and branch populated
+        """
+        from git import Repo
+
+        try:
+            repo = Repo(repo_path)
+            git_sha = repo.head.commit.hexsha
+            branch = repo.active_branch.name
+        except Exception:
+            git_sha = "unknown"
+            branch = "unknown"
+
+        return cls(git_sha=git_sha, branch=branch)
