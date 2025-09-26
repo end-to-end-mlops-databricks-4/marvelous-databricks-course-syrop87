@@ -15,13 +15,15 @@ class ProjectConfig(BaseModel):
     Supports environment-specific configuration overrides.
     """
 
-    # num_features: list[str]
-    # cat_features: list[str]
-    # target: str
     catalog_name: str
     schema_name: str
+    experiment_name_basic: str
     data_source: dict[str, Any]
     preprocessing: dict[str, Any]
+    target_column: str
+    num_features: list[str]
+    cat_features: list[str]
+    model_parameters: dict[str, Any]
 
     @classmethod
     def from_yaml(cls, config_path: str, env: str = "dev") -> "ProjectConfig":
