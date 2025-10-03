@@ -9,6 +9,7 @@ dev:
   schema_name: pborys
 
 experiment_name_basic: /Shared/pborys-games-sales-basic
+experiment_name_fe: /Shared/pborys-games-sales-fe
 
 data_source:
   online_path: gregorut/videogamesales
@@ -34,6 +35,10 @@ num_features:
 cat_features:
   - Genre
   - Platform
+
+features_from_lookup:
+  - Publisher_count
+  - Name_count
 
 model_parameters:
   learning_rate: 0.01

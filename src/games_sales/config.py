@@ -18,11 +18,13 @@ class ProjectConfig(BaseModel):
     catalog_name: str
     schema_name: str
     experiment_name_basic: str
+    experiment_name_fe: str
     data_source: dict[str, Any]
     preprocessing: dict[str, Any]
     target_column: str
     num_features: list[str]
     cat_features: list[str]
+    features_from_lookup: list[str]
     model_parameters: dict[str, Any]
 
     @classmethod
