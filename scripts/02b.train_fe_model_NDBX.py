@@ -1,12 +1,15 @@
-# COMMAND ----------
 # Databricks notebook source
-# MAGIC %pip install house_price-0.0.1-py3-none-any.whl
+# MAGIC %pip install games_sales-0.0.1-py3-none-any.whl
 
+# COMMAND ----------
+
+# MAGIC %restart_python
 # COMMAND ----------
 
 import yaml
 from loguru import logger
 from pyspark.sql import SparkSession
+from pyspark.sql.functions import col
 
 from games_sales import PROJECT_DIR
 from games_sales.config import ProjectConfig, Tags
@@ -66,3 +69,28 @@ test_set = spark.table(f"{config.catalog_name}.{config.schema_name}.test_set").l
 
 # Drop feature lookup columns and target
 X_test = test_set.drop(*config.features_from_lookup, config.target)
+
+
+# COMMAND ----------
+
+
+X_test = (
+    X_test.withColumn("LotArea", col("LotArea").cast("int"))
+    .withColumn("OverallCond", col("OverallCond").cast("int"))
+    .withColumn("YearBuilt", col("YearBuilt").cast("int"))
+    .withColumn("YearRemodAdd", col("YearRemodAdd").cast("int"))
+    .withColumn("TotalBsmtSF", col("TotalBsmtSF").cast("int"))
+)
+
+
+# COMMAND ----------
+
+fe_model = FeatureLookUpModel(config=config, tags=tags, spark=spark)
+
+# Make predictions
+predictions = fe_model.load_latest_model_and_predict(X_test)
+
+# Display predictions
+logger.info(predictions)
+
+# COMMAND ----------

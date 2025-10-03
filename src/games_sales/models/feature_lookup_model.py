@@ -69,6 +69,9 @@ class FeatureLookUpModel:
         self.feature_table_name = f"{self.catalog_name}.{self.schema_name}.games_sales_features"
         self.function_name = f"{self.catalog_name}.{self.schema_name}.calculate_age"
 
+        if not is_databricks():
+            raise OSError("FeatureLookUpModel can only be run in a Databricks environment.")
+
         if not is_databricks() and log_on_dbx:
             load_dotenv()
             profile = os.environ.get("PROFILE_NAME")
@@ -112,7 +115,7 @@ class FeatureLookUpModel:
         self.train_set["Id"] = self.train_set["Id"].astype(str)
 
         self.test_set = self.spark.table(f"{self.catalog_name}.{self.schema_name}.test_set")
-        self.test_set = self.test_set.toPandas().drop(columns=self.features_from_lookup)
+        self.test_set = self.test_set.toPandas()
         self.test_set["Id"] = self.test_set["Id"].astype(str)
 
         cols_X = [col for col in self.num_features + self.cat_features if col not in self.features_from_lookup]

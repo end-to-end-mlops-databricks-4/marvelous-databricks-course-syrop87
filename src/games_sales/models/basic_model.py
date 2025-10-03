@@ -31,7 +31,7 @@ from games_sales.utils import is_databricks
 
 
 class BasicModel:
-    """A basic model class for house price prediction using LightGBM.
+    """A basic model class for games sales prediction using LightGBM.
 
     This class handles data loading, feature preparation, model training, and MLflow logging.
     """

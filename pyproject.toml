@@ -1,5 +1,5 @@
 [project]
-name = "mlops-course"
+name = "games_sales"
 description = "MLOps with Databricks course"
 requires-python = ">=3.12, <3.13"
 dependencies = [
@@ -44,7 +44,7 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 where =["src"]
-include = ["house_price*", "marvel_characters*"]
+include = ["games_sales*"]
 
 
 [tool.setuptools.dynamic]

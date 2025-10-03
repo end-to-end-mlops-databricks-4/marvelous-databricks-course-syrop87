@@ -46,3 +46,8 @@ tasks:
     cmds:
       - task: help
     silent: true
+
+  build:
+    desc: Build the project
+    cmds:
+      - uv build
