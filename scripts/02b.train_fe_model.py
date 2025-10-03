@@ -51,18 +51,9 @@ fe_model.feature_engineering()
 # Train the model
 fe_model.train()
 
+fe_model.log_model()
+
 # COMMAND ----------
 
-# Train the model
+# Register the model
 fe_model.register_model()
-
-# COMMAND ----------
-
-# Lets run prediction on the last production model
-# Load test set from Delta table
-spark = SparkSession.builder.getOrCreate()
-
-test_set = spark.table(f"{config.catalog_name}.{config.schema_name}.test_set").limit(10)
-
-# Drop feature lookup columns and target
-X_test = test_set.drop(*config.features_from_lookup, config.target)

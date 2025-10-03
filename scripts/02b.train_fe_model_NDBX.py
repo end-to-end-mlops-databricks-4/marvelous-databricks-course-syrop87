@@ -1,19 +1,24 @@
 # Databricks notebook source
-# MAGIC %pip install games_sales-0.0.1-py3-none-any.whl
+# MAGIC %pip install games_sales-0.0.2-py3-none-any.whl
 
 # COMMAND ----------
 
 # MAGIC %restart_python
 # COMMAND ----------
 
+from pathlib import Path
+
 import yaml
 from loguru import logger
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col
 
 from games_sales import PROJECT_DIR
 from games_sales.config import ProjectConfig, Tags
 from games_sales.models.feature_lookup_model import FeatureLookUpModel
+from games_sales.utils import is_databricks
+
+if is_databricks():
+    PROJECT_DIR = Path.cwd().parent.resolve()
 
 config = ProjectConfig.from_yaml(config_path=(PROJECT_DIR / "project_config.yml").resolve(), env="dev")
 tags = Tags.from_git_repo(repo_path=PROJECT_DIR)
@@ -54,6 +59,9 @@ fe_model.feature_engineering()
 # Train the model
 fe_model.train()
 
+fe_model.log_model()
+
+
 # COMMAND ----------
 
 # Train the model
@@ -68,19 +76,7 @@ spark = SparkSession.builder.getOrCreate()
 test_set = spark.table(f"{config.catalog_name}.{config.schema_name}.test_set").limit(10)
 
 # Drop feature lookup columns and target
-X_test = test_set.drop(*config.features_from_lookup, config.target)
-
-
-# COMMAND ----------
-
-
-X_test = (
-    X_test.withColumn("LotArea", col("LotArea").cast("int"))
-    .withColumn("OverallCond", col("OverallCond").cast("int"))
-    .withColumn("YearBuilt", col("YearBuilt").cast("int"))
-    .withColumn("YearRemodAdd", col("YearRemodAdd").cast("int"))
-    .withColumn("TotalBsmtSF", col("TotalBsmtSF").cast("int"))
-)
+X_test = test_set.drop(*config.features_from_lookup, config.target_column)
 
 
 # COMMAND ----------

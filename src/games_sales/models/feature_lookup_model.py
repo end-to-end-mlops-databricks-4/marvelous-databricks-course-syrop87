@@ -210,16 +210,12 @@ class FeatureLookUpModel:
 
             # Log the model
             signature = infer_signature(model_input=self.X_train, model_output=y_pred)
-            dataset = mlflow.data.from_spark(
-                self.train_set_spark,
-                table_name=f"{self.catalog_name}.{self.schema_name}.train_set",
-                version=self.data_version,
-            )
-            mlflow.log_input(dataset, context="training")
+
             self.fe.log_model(
-                sk_model=self.pipeline,
+                model=self.pipeline,
                 flavor=mlflow.sklearn,
                 artifact_path="lightgbm-pipeline-model-fe",
+                training_set=self.training_set,
                 signature=signature,
             )
 
@@ -227,7 +223,7 @@ class FeatureLookUpModel:
         """Register model in Unity Catalog."""
         logger.info("🔄 Registering the model in UC...")
         registered_model = mlflow.register_model(
-            model_uri=f"runs:/{self.run_id}/lightgbm-pipeline-model",
+            model_uri=f"runs:/{self.run_id}/lightgbm-pipeline-model-fe",
             name=self.model_name,
             tags=self.tags,
         )
