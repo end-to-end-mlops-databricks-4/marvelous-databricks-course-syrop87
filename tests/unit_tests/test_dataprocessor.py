@@ -32,8 +32,8 @@ def test_dataprocessor_init(
     :param spark: SparkSession object
     """
     processor = DataProcessor(pandas_df=sample_data, config=config, spark=spark_session)
-    assert isinstance(processor.df, pd.DataFrame)
-    assert processor.df.equals(sample_data)
+    assert isinstance(processor.df_raw, pd.DataFrame)
+    assert processor.df_raw.equals(sample_data)
 
     assert isinstance(processor.config, ProjectConfig)
     assert isinstance(processor.spark, SparkSession)
