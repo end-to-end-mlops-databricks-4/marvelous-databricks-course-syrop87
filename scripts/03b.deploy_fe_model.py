@@ -76,7 +76,9 @@ feature_model_server.deploy_or_update_serving_endpoint()
 # COMMAND ----------
 # Create a sample request body
 
-required_columns = [col for col in config.num_features + config.cat_features if col not in config.features_from_lookup]
+required_columns = [
+    col for col in config.num_features + config.cat_features if col not in config.features_from_lookup
+] + ["Id"]
 
 train_set = spark.table(f"{config.catalog_name}.{config.schema_name}.train_set").toPandas()
 sampled_records = train_set[required_columns].sample(n=1000, replace=True).to_dict(orient="records")
