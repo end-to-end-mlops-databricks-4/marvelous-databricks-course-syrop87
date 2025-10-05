@@ -85,7 +85,7 @@ class FeatureLookUpModel:
         This table stores features related to houses.
         """
         # Create column definitions dynamically
-        feature_columns = ", ".join(f"{feature} FLOAT" for feature in self.features_from_lookup)
+        feature_columns = ", ".join(f"{feature} DOUBLE" for feature in self.features_from_lookup)
         create_table_sql = f"""
         CREATE OR REPLACE TABLE {self.feature_table_name}
         (Id STRING NOT NULL, {feature_columns});

@@ -600,6 +600,75 @@ wheels = [
 ]
 
 [[package]]
+name = "games-sales"
+source = { editable = "." }
+dependencies = [
+    { name = "boto3" },
+    { name = "cffi" },
+    { name = "cloudpickle" },
+    { name = "databricks-feature-engineering" },
+    { name = "databricks-feature-lookup" },
+    { name = "databricks-sdk" },
+    { name = "kagglehub" },
+    { name = "lightgbm" },
+    { name = "loguru" },
+    { name = "mlflow" },
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "pyarrow" },
+    { name = "pydantic" },
+    { name = "python-dotenv" },
+    { name = "scikit-learn" },
+    { name = "scipy" },
+]
+
+[package.optional-dependencies]
+dev = [
+    { name = "databricks-connect" },
+    { name = "ipykernel" },
+    { name = "pip" },
+    { name = "pre-commit" },
+]
+test = [
+    { name = "pre-commit" },
+    { name = "pydantic-settings" },
+    { name = "pyspark" },
+    { name = "pytest" },
+    { name = "pytest-cov" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "boto3", specifier = ">=1.40.27" },
+    { name = "cffi", specifier = "==1.17.1" },
+    { name = "cloudpickle", specifier = "==3.1.1" },
+    { name = "databricks-connect", marker = "extra == 'dev'", specifier = ">=16.0,<17" },
+    { name = "databricks-feature-engineering", specifier = "==0.13.0" },
+    { name = "databricks-feature-lookup", specifier = "==1.8.0" },
+    { name = "databricks-sdk", specifier = "==0.62.0" },
+    { name = "ipykernel", marker = "extra == 'dev'", specifier = ">=6.29.5,<7" },
+    { name = "kagglehub", specifier = "==0.3.13" },
+    { name = "lightgbm", specifier = "==4.6.0" },
+    { name = "loguru", specifier = "==0.7.3" },
+    { name = "mlflow", specifier = "==3.1.1" },
+    { name = "numpy", specifier = "==1.26.4" },
+    { name = "pandas", specifier = "==2.3.0" },
+    { name = "pip", marker = "extra == 'dev'", specifier = ">=25.0.1,<26" },
+    { name = "pre-commit", marker = "extra == 'dev'", specifier = ">=4.1.0,<5" },
+    { name = "pre-commit", marker = "extra == 'test'", specifier = ">=4.1.0,<5" },
+    { name = "pyarrow", specifier = "==17.0.0" },
+    { name = "pydantic", specifier = "==2.11.7" },
+    { name = "pydantic-settings", marker = "extra == 'test'", specifier = ">=2.0.0" },
+    { name = "pyspark", marker = "extra == 'test'", specifier = ">=3.4.0,<4" },
+    { name = "pytest", marker = "extra == 'test'", specifier = ">=8.0.0,<9" },
+    { name = "pytest-cov", marker = "extra == 'test'", specifier = ">=5.0.0,<6" },
+    { name = "python-dotenv", specifier = "==1.1.1" },
+    { name = "scikit-learn", specifier = "==1.7.0" },
+    { name = "scipy", specifier = "==1.16.0" },
+]
+provides-extras = ["dev", "test"]
+
+[[package]]
 name = "gitdb"
 version = "4.0.12"
 source = { registry = "https://pypi.org/simple" }
@@ -1338,75 +1407,6 @@ databricks = [
     { name = "databricks-agents" },
     { name = "google-cloud-storage" },
 ]
-
-[[package]]
-name = "mlops-course"
-source = { editable = "." }
-dependencies = [
-    { name = "boto3" },
-    { name = "cffi" },
-    { name = "cloudpickle" },
-    { name = "databricks-feature-engineering" },
-    { name = "databricks-feature-lookup" },
-    { name = "databricks-sdk" },
-    { name = "kagglehub" },
-    { name = "lightgbm" },
-    { name = "loguru" },
-    { name = "mlflow" },
-    { name = "numpy" },
-    { name = "pandas" },
-    { name = "pyarrow" },
-    { name = "pydantic" },
-    { name = "python-dotenv" },
-    { name = "scikit-learn" },
-    { name = "scipy" },
-]
-
-[package.optional-dependencies]
-dev = [
-    { name = "databricks-connect" },
-    { name = "ipykernel" },
-    { name = "pip" },
-    { name = "pre-commit" },
-]
-test = [
-    { name = "pre-commit" },
-    { name = "pydantic-settings" },
-    { name = "pyspark" },
-    { name = "pytest" },
-    { name = "pytest-cov" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "boto3", specifier = ">=1.40.27" },
-    { name = "cffi", specifier = "==1.17.1" },
-    { name = "cloudpickle", specifier = "==3.1.1" },
-    { name = "databricks-connect", marker = "extra == 'dev'", specifier = ">=16.0,<17" },
-    { name = "databricks-feature-engineering", specifier = "==0.13.0" },
-    { name = "databricks-feature-lookup", specifier = "==1.8.0" },
-    { name = "databricks-sdk", specifier = "==0.62.0" },
-    { name = "ipykernel", marker = "extra == 'dev'", specifier = ">=6.29.5,<7" },
-    { name = "kagglehub", specifier = "==0.3.13" },
-    { name = "lightgbm", specifier = "==4.6.0" },
-    { name = "loguru", specifier = "==0.7.3" },
-    { name = "mlflow", specifier = "==3.1.1" },
-    { name = "numpy", specifier = "==1.26.4" },
-    { name = "pandas", specifier = "==2.3.0" },
-    { name = "pip", marker = "extra == 'dev'", specifier = ">=25.0.1,<26" },
-    { name = "pre-commit", marker = "extra == 'dev'", specifier = ">=4.1.0,<5" },
-    { name = "pre-commit", marker = "extra == 'test'", specifier = ">=4.1.0,<5" },
-    { name = "pyarrow", specifier = "==17.0.0" },
-    { name = "pydantic", specifier = "==2.11.7" },
-    { name = "pydantic-settings", marker = "extra == 'test'", specifier = ">=2.0.0" },
-    { name = "pyspark", marker = "extra == 'test'", specifier = ">=3.4.0,<4" },
-    { name = "pytest", marker = "extra == 'test'", specifier = ">=8.0.0,<9" },
-    { name = "pytest-cov", marker = "extra == 'test'", specifier = ">=5.0.0,<6" },
-    { name = "python-dotenv", specifier = "==1.1.1" },
-    { name = "scikit-learn", specifier = "==1.7.0" },
-    { name = "scipy", specifier = "==1.16.0" },
-]
-provides-extras = ["dev", "test"]
 
 [[package]]
 name = "mypy-extensions"
