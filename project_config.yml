@@ -8,6 +8,9 @@ dev:
   catalog_name: mlops_dev
   schema_name: pborys
 
+experiment_name_basic: /Shared/pborys-games-sales-basic
+experiment_name_fe: /Shared/pborys-games-sales-fe
+
 data_source:
   online_path: gregorut/videogamesales
   file_name: vgsales.csv
@@ -21,3 +24,23 @@ preprocessing:
   drop_columns: ['NA_Sales', 'EU_Sales', 'JP_Sales', 'Other_Sales']
   aggregations:
     counts: ['Publisher', 'Name']
+
+target_column: Global_Sales
+
+num_features:
+  - Year
+  - Publisher_count
+  - Name_count
+
+cat_features:
+  - Genre
+  - Platform
+
+features_from_lookup:
+  - Publisher_count
+  - Name_count
+
+model_parameters:
+  learning_rate: 0.01
+  n_estimators: 100
+  max_depth: 6

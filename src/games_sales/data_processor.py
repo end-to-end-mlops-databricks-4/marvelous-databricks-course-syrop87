@@ -11,7 +11,7 @@ class DataProcessor:
 
     def __init__(self, pandas_df: pd.DataFrame, config: ProjectConfig, spark: SparkSession | None = None) -> None:
         self.config = config
-        self.df = pandas_df
+        self.df_raw = pandas_df
         self.spark = spark
 
     def preprocess_data(self) -> None:
@@ -20,7 +20,7 @@ class DataProcessor:
         :param df: Input DataFrame
         :return: Preprocessed DataFrame
         """
-        df = self.df.copy()
+        df = self.df_raw.copy()
         df = df.drop(columns=self.config.preprocessing["drop_columns"])
         logger.info(f"Dropped columns: {self.config.preprocessing['drop_columns']}")
 
@@ -33,7 +33,39 @@ class DataProcessor:
         df_agg = self._drop_short_series(df_agg)
         logger.info(f"Data shape after dropping short series: {df_agg.shape}")
 
+        df_agg["Id"] = self._create_id(df_agg)
+        logger.info("Created ID column by merging aggregation level columns and date column")
+
+        df_agg = self._adjust_columns_types(df_agg)
+        logger.info("Adjusted columns types")
+
         self.df = df_agg
+
+    def _create_id(self, df: pd.DataFrame) -> pd.Series:
+        """Create a unique ID by combining aggregation level columns and date column.
+
+        :param df: Input DataFrame
+        :return: Series with string IDs
+        """
+        agg_values = df[self.config.preprocessing["aggregation_level"]].astype(str).values
+        date_values = df[self.config.preprocessing["date_column"]].astype(int).astype(str).values
+
+        # Combine all values with underscore separator
+        id_series = pd.Series(
+            ["_".join(row) + "_" + date for row, date in zip(agg_values, date_values, strict=True)], index=df.index
+        )
+        return id_series
+
+    def _adjust_columns_types(self, df: pd.DataFrame) -> pd.DataFrame:
+        """Adjust data types based on configuration settings.
+
+        :param df: Input DataFrame
+        :return: DataFrame with adjusted types
+        """
+        num_features = self.config.num_features + [self.config.target_column]
+        for col in num_features:
+            df[col] = pd.to_numeric(df[col], errors="coerce")
+        return df
 
     def _aggregate_data(self, df: pd.DataFrame) -> pd.DataFrame:
         """Aggregate data based on configuration settings.
@@ -89,11 +121,11 @@ class DataProcessor:
             "update_timestamp_utc", to_utc_timestamp(current_timestamp(), "UTC")
         )
 
-        train_set_with_timestamp.write.mode("append").saveAsTable(
+        train_set_with_timestamp.write.mode("overwrite").option("overwriteSchema", "true").saveAsTable(
             f"{self.config.catalog_name}.{self.config.schema_name}.train_set"
         )
 
-        test_set_with_timestamp.write.mode("append").saveAsTable(
+        test_set_with_timestamp.write.mode("overwrite").option("overwriteSchema", "true").saveAsTable(
             f"{self.config.catalog_name}.{self.config.schema_name}.test_set"
         )
 

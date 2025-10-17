@@ -12,6 +12,7 @@ __pycache__/
 # Folders
 data/
 notebooks/
+mlruns/
 
 # Distribution / packaging
 .Python

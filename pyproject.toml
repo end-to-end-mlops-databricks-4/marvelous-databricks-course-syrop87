@@ -1,5 +1,5 @@
 [project]
-name = "mlops-course"
+name = "games_sales"
 description = "MLOps with Databricks course"
 requires-python = ">=3.12, <3.13"
 dependencies = [
@@ -12,20 +12,23 @@ dependencies = [
     "scikit-learn==1.7.0",
     "lightgbm==4.6.0",
     "scipy==1.16.0",
-    "databricks-sdk==0.55.0",
+    "databricks-sdk==0.62.0",
     "pydantic==2.11.7",
     "loguru==0.7.3",
     "python-dotenv==1.1.1",
-    "kagglehub==0.3.13"
+    "kagglehub==0.3.13",
+    "boto3>=1.40.27"
 ]
 
 dynamic = ['version']
 
 [project.optional-dependencies]
 dev = ["databricks-connect>=16.0, <17",
-       "ipykernel>=6.29.5, <7",
-       "pip>=25.0.1, <26",
-       "pre-commit>=4.1.0, <5"]
+        "ipykernel>=6.29.5, <7",
+        "pip>=25.0.1, <26",
+        "pre-commit>=4.1.0, <5",
+        "databricks-feature-engineering==0.13.0",
+        "databricks-feature-lookup==1.8.0"]
 
 test = ["pre-commit>=4.1.0, <5",
        "pytest>=8.0.0, <9",
@@ -41,7 +44,7 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 where =["src"]
-include = ["house_price*", "marvel_characters*"]
+include = ["games_sales*"]
 
 
 [tool.setuptools.dynamic]

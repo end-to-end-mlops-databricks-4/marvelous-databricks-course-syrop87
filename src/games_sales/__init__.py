@@ -1,4 +1,4 @@
-"""House price package."""
+"""games_sales package."""
 
 import importlib.metadata
 import importlib.resources

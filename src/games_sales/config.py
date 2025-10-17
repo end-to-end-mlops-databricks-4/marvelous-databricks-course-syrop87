@@ -15,13 +15,17 @@ class ProjectConfig(BaseModel):
     Supports environment-specific configuration overrides.
     """
 
-    # num_features: list[str]
-    # cat_features: list[str]
-    # target: str
     catalog_name: str
     schema_name: str
+    experiment_name_basic: str
+    experiment_name_fe: str
     data_source: dict[str, Any]
     preprocessing: dict[str, Any]
+    target_column: str
+    num_features: list[str]
+    cat_features: list[str]
+    features_from_lookup: list[str]
+    model_parameters: dict[str, Any]
 
     @classmethod
     def from_yaml(cls, config_path: str, env: str = "dev") -> "ProjectConfig":
@@ -53,3 +57,22 @@ class Tags(BaseModel):
 
     git_sha: str
     branch: str
+
+    @classmethod
+    def from_git_repo(cls, repo_path: str = PROJECT_DIR) -> "Tags":
+        """Create Tags instance from a Git repository.
+
+        :param repo_path: Path to the Git repository
+        :return: Tags instance with git_sha and branch populated
+        """
+        from git import Repo
+
+        try:
+            repo = Repo(repo_path)
+            git_sha = repo.head.commit.hexsha
+            branch = repo.active_branch.name
+        except Exception:
+            git_sha = "unknown"
+            branch = "unknown"
+
+        return cls(git_sha=git_sha, branch=branch)
