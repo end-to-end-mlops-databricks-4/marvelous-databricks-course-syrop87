@@ -4,6 +4,7 @@ from pathlib import Path
 import kagglehub
 import pandas as pd
 from loguru import logger
+from pyspark.sql import SparkSession
 
 from games_sales.config import ProjectConfig
 
@@ -11,14 +12,25 @@ from games_sales.config import ProjectConfig
 class DataLoader:
     """Class to handle data loading from either online kaggle source or local path."""
 
-    def __init__(self, config: ProjectConfig) -> None:
+    def __init__(self, config: ProjectConfig, from_volume: bool, spark: SparkSession) -> None:
         self.config = config
+        self.from_volume = from_volume
+        self.spark = spark
 
     def load_data(self, config: ProjectConfig) -> pd.DataFrame:
         """Load data into a Pandas DataFrame.
 
         return: DataFrame containing the loaded data
         """
+        if self.from_volume:
+            spark = self.spark
+
+            volume_path = f"/Volumes/{config.catalog_name}/{config.schema_name}/data/{config.data_source['file_name']}"
+            df = spark.read.csv(volume_path, header=True, inferSchema=True).toPandas()
+
+            logger.info(f"Data loaded from volume at {volume_path} with shape {df.shape}")
+            return df
+
         local_path = Path(config.data_source["local_path"])
         if config.data_source["force_download"] or not local_path.exists():
             download_path = kagglehub.dataset_download(config.data_source["online_path"], force_download=True)
