@@ -32,7 +32,8 @@ spark = DatabricksSession.builder.profile(os.environ.get("PROFILE_NAME")).getOrC
 
 w = WorkspaceClient()
 # w = WorkspaceClient(profile=os.environ.get("PROFILE_NAME"))
-os.environ["DBR_HOST"] = w.config.host  # TODO Working only on DBX Serverless :(
+# os.environ["DBR_HOST"] = w.config.host  # TODO Working only on DBX Serverless :(
+os.environ['DBR_HOST'] = spark.conf.get("spark.databricks.workspaceUrl")
 os.environ["DBR_TOKEN"] = w.tokens.create(lifetime_seconds=1200).token_value  # TODO Not working from VS Code
 
 
