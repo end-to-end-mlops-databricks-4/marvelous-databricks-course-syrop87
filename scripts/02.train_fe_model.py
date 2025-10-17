@@ -28,6 +28,30 @@ parser.add_argument(
 )
 
 parser.add_argument(
+    "--git_sha",
+    action="store",
+    default=None,
+    type=str,
+    required=True,
+)
+
+parser.add_argument(
+    "--job_run_id",
+    action="store",
+    default=None,
+    type=str,
+    required=True,
+)
+
+parser.add_argument(
+    "--branch",
+    action="store",
+    default=None,
+    type=str,
+    required=True,
+)
+
+parser.add_argument(
     "--is_test",
     action="store",
     default=0,

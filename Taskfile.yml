@@ -51,3 +51,15 @@ tasks:
     desc: Build the project
     cmds:
       - uv build
+
+  dab-deploy-run:
+    desc: Deploy and run on Databricks
+    cmds:
+      - databricks bundle validate
+      - databricks bundle deploy
+      - databricks bundle run
+
+  dab-destroy:
+    desc: Destroy workflow on Databricks
+    cmds:
+      - databricks bundle destroy

@@ -1,55 +1,42 @@
 ## COMMAND ----------
 import argparse
-import sys
 from pathlib import Path
 
 import yaml
 from loguru import logger
 from pyspark.sql import SparkSession
 
-from games_sales import PROJECT_DIR
 from games_sales.config import ProjectConfig
 
 # from games_sales.data_loader import DataLoader
 from games_sales.data_processor import DataProcessor
 
-if "ipykernel" in sys.modules:
-    # Running interactively, mock arguments
-    class Args:
-        """Mock arguments used when running interactively (e.g. in Jupyter)."""
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    "--root_path",
+    action="store",
+    default=None,
+    type=str,
+    required=True,
+)
 
-        env = "dev"
-        is_test = 0
+parser.add_argument(
+    "--env",
+    action="store",
+    default=None,
+    type=str,
+    required=True,
+)
 
-    args = Args()
-else:
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--root_path",
-        action="store",
-        default=None,
-        type=str,
-        required=True,
-    )
-
-    parser.add_argument(
-        "--env",
-        action="store",
-        default=None,
-        type=str,
-        required=True,
-    )
-
-    parser.add_argument(
-        "--is_test",
-        action="store",
-        default=0,
-        type=int,
-        required=True,
-    )
-    args = parser.parse_args()
-    PROJECT_DIR = (Path(args.root_path) / "files").resolve()
-
+parser.add_argument(
+    "--is_test",
+    action="store",
+    default=0,
+    type=int,
+    required=True,
+)
+args = parser.parse_args()
+PROJECT_DIR = (Path(args.root_path) / "files").resolve()
 
 config = ProjectConfig.from_yaml(config_path=(PROJECT_DIR / "project_config.yml").resolve(), env=args.env)
 
