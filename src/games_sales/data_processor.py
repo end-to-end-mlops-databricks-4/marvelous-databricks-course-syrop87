@@ -64,7 +64,7 @@ class DataProcessor:
         """
         num_features = self.config.num_features + [self.config.target_column]
         for col in num_features:
-            df[col] = pd.to_numeric(df[col], errors="coerce")
+            df[col] = pd.to_numeric(df[col], errors="coerce").astype("float64")
         return df
 
     def _aggregate_data(self, df: pd.DataFrame) -> pd.DataFrame:
