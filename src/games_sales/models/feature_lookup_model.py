@@ -68,7 +68,6 @@ class FeatureLookUpModel:
 
         # Define table names and function name
         self.feature_table_name = f"{self.catalog_name}.{self.schema_name}.games_sales_features"
-        self.function_name = f"{self.catalog_name}.{self.schema_name}.calculate_age"
 
         if not is_databricks():
             raise OSError("FeatureLookUpModel can only be run in a Databricks environment.")
